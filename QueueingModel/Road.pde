@@ -36,14 +36,14 @@ public class Road
     this.bikeWeighting = bikeWeighting;
 //    this.timeStep = timeStep;
     this.carLength = oneCarLength * carsPerAgent; // one agent Car represents multiple actual cars 
-    if (speedLimitCar == 0)
-    {
-      this.speedLimitCar = 15; //m/s, default
-    }
-    else
-    {
-      this.speedLimitCar = speedLimitCar;
-    }
+//    if (speedLimitCar == 0)
+//    {
+      this.speedLimitCar = 8; //m/s, default
+//    }
+//    else
+//    {
+//      this.speedLimitCar = speedLimitCar;
+//    }
     this.numLanes = numLanes;
     this.roadLength = (int)MercatorMap.latlonToDistance(start.node, end.node);
     this.minTravelTime = roadLength / this.speedLimitCar; //seconds
@@ -140,6 +140,10 @@ public class Road
         // Remove from road
         it.remove();
       } 
+      else if (c.getTimeRemaining() < -15*60)
+      {
+        it.remove();
+      }
       // If it's not at the destination but is at the end of the road
 //      else if (c.getTimeRemaining() < 0 && cars.indexOf(c) < numLanes)
 //      {
@@ -319,6 +323,18 @@ public class Road
   // Draws the lines to a PGraphic rather than screen
   public void drawRoadPGraphic(MercatorMap mercatorMap, PGraphics pg, color c, int opacity, int lineWeight)
   { 
+    if (carsAllowed)
+    {
+      lineWeight = lineWeight*2;
+    }
+    else if (bikesAllowed)
+    {
+      opacity = int(opacity*0.75);
+    }
+    else
+    {
+      opacity = int(opacity*0.25);
+    }
     pg.stroke(c, opacity);
     pg.strokeWeight(lineWeight);
     PVector Start = mercatorMap.getScreenLocation(nodes[0].node);

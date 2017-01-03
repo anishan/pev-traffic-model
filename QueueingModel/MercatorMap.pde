@@ -136,6 +136,8 @@ public static class MercatorMap {
     
   }
   
+ 
+  
   // Find a point a distance (in meters away) in the direction given by the bearing
   // from the point p1
   public static PVector endpoint(PVector p1, float distance, float bearing)

@@ -36,12 +36,14 @@ public class Car
    
   
   
-  public Car(PathPlanner pathPlanner, PVector start, PVector end)
+  public Car(PathPlanner pathPlanner, PVector start, PVector end, boolean draw)
   {    
     this.path = pathPlanner.getPath(start, end, "car");
-    this.draw = true;
+    this.draw = draw;
     this.hurrCat = 1;
-    this.c = color(255, 170, 0);
+//    this.c = color(255, 170, 0);
+    int rand =  (int)(Math.random()*100) + 155;
+    this.c = color(rand, rand, rand);
 //    this.restart();
   }
   
@@ -134,7 +136,7 @@ public class Car
       pg.fill(c);
       pg.noStroke();
       PVector point = mercatorMap.getScreenLocation(this.current);
-      pg.ellipse(point.x, point.y, 6, 6);
+      pg.ellipse(point.x, point.y, 7, 7);
     }
   }
 

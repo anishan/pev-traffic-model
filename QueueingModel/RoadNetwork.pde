@@ -198,7 +198,7 @@ public class RoadNetwork
   }
   
   // Gets node closest to the given lat lon points
-  public Node getClosestNode(float lat, float lon)
+  public Node getClosestNode(float lat, float lon, String type)
   {
     PVector currentLoc = new PVector(lat, lon);
     float closestDistance = MercatorMap.latlonToDistance(nodes.get(0).node, currentLoc);
@@ -207,7 +207,7 @@ public class RoadNetwork
     for (int i = 0; i < nodes.size(); i++)
     {
       currDistance = MercatorMap.latlonToDistance(nodes.get(i).node, currentLoc);
-      if (currDistance < closestDistance)
+      if ((currDistance < closestDistance) && nodes.get(i).validType(type))
       {
         closestDistance = currDistance;
         closestNodeIndex = i;
@@ -236,8 +236,8 @@ public class RoadNetwork
     {
       roads.get(i).cars.clear();
       roads.get(i).waitlist.clear();
-      roads.get(i).bikes.clear();
-      roads.get(i).waitlistBike.clear();
+//      roads.get(i).bikes.clear();
+//      roads.get(i).waitlistBike.clear();
     }
     
   }

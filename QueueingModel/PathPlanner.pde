@@ -36,49 +36,82 @@ public class PathPlanner
   public ArrayList<Road> getPath(PVector startPt, PVector endPt, String type)
   {
     // Get the nodes of the graph (road network) closest to the given lat lon
-    Node start = roads.getClosestNode(startPt.x, startPt.y);
-    Node end = roads.getClosestNode(endPt.x, endPt.y);
-    
-    // Check if path already exists, to reduce computational load
-    for (int i = 0; i < paths.size(); i++)
+    Node start = roads.getClosestNode(startPt.x, startPt.y, type);
+    Node end = roads.getClosestNode(endPt.x, endPt.y, type);
+//    println("[PathPlanner] Start: " + startPt.x + "," + startPt.y + " End: " + endPt.x + "," + endPt.y);
+//    println("[PathPlanner] start: " + start.node.x + "," + start.node.y + " end: " + end.node.x + "," + end.node.y);
+//    return new ArrayList<Road>();
+    try // sometimes errors because of different types of roads
     {
-      // If there is already a path between the same start and end nodes
-      if (type.equals("car") && startNode.get(i).equals(start) && endNode.get(i).equals(end))
-      {
-        return paths.get(i);
-      }
-//      
+    if (start.equals(end))
+    {
+//      println("[PathPlanner] same start and end");
+      return new ArrayList<Road>();
     }
-    for (int i = 0; i < bikePaths.size(); i++)
+    
+    if (type.equals("car"))
     {
-      // If there is already a path between the same start and end nodes
-      if (type.equals("bike") && startNodeBike.get(i).equals(start) && endNodeBike.get(i).equals(end))
+        // Check if path already exists, to reduce computational load
+        for (int i = 0; i < paths.size(); i++)
+        {
+          // If there is already a path between the same start and end nodes
+          if (startNode.get(i).equals(start) && endNode.get(i).equals(end))
+          {
+            return paths.get(i);
+          }
+    //      
+        }    
+    }
+    else if (type.equals("bike"))
+    {
+      for (int i = 0; i < bikePaths.size(); i++)
       {
-        return bikePaths.get(i);
+        // If there is already a path between the same start and end nodes
+        if (startNodeBike.get(i).equals(start) && endNodeBike.get(i).equals(end))
+        {
+          return bikePaths.get(i);
+        }
+  //      
       }
-//      
     }
     
     // If the path hasn't been calculated already, create a path
     ArrayList<Node> pathNode = makePath(start, end, type);
+//    println("[PathPlanner] pathNode: "+ pathNode);
+    if (pathNode == null)
+    {
+      return new ArrayList<Road>();
+    }
     ArrayList<Road> pathRoad = nodesToRoads(pathNode);
     
     // Add path to memory
     if (type.equals("car"))
     {
-      paths.add(pathRoad);
-      startNode.add(start);
-      endNode.add(end);
+//      try
+//      {
+        paths.add(pathRoad);
+        startNode.add(start);
+        endNode.add(end);
+//      }
     }
     else if (type.equals("bike"))
     {
-      bikePaths.add(pathRoad);
-      startNodeBike.add(start);
-      endNodeBike.add(end);
+//      try
+//      {
+        bikePaths.add(pathRoad);
+        startNodeBike.add(start);
+        endNodeBike.add(end);
+//      }
     }
     
     // Return path
+//    println("[PathPlanner] pathRoad: " + pathRoad);
     return pathRoad;
+    }
+    catch (Exception e)
+    {
+      return new ArrayList<Road>();
+    }
     
   }
   
@@ -153,9 +186,22 @@ public class PathPlanner
         {
           totalDist[neighborIndex] = d;
           previous[neighborIndex] = nextIndex;
+//          previous[nextIndex] = neighborIndex;
         }
       }
     }
+//    println("[PathPlanner] previous[endIndex]: " + previous[endIndex]);
+    if (previous[endIndex] == null) // need to fix this bug, but skip over for now
+    {
+//      println("[PathPlanner] weird null error ");
+      return null;
+    }
+//    print("[PathPlanner] visited: ");
+//    for (int i = 0; i <visited.length; i++)
+//    {
+//      print(visited[i] + " , ");
+//    }
+//    println();
     return previous;
   }
 
@@ -167,21 +213,41 @@ public class PathPlanner
   {
     int startIndex = roads.nodes.indexOf(start);
     int endIndex = roads.nodes.indexOf(end);
-    println("[PathPlanner] startIndex: " + startIndex + " endIndex: " + endIndex);
     Integer[] previous = setWeights(start, end, type);
-    println("[PathPlanner] previous: " + previous);
+//    println("[PathPlanner] previous: " + previous.length);
+    if (previous == null)
+    {
+       return null; 
+    }
+//    println("[PathPlanner] startIndex: " + startIndex + " , endIndex: " + endIndex);
+//    
     ArrayList<Integer> pathIndex = new ArrayList<Integer>();
     ArrayList<Node> pathNode = new ArrayList<Node>();
+    
+    if (previous.length == 0) // need to fix this bug, but skip over for now
+    {
+      return new ArrayList<Node>();
+    }
+    
+//    print("[PathPlanner] previous: ");
+//    for (int i = 0; i <previous.length; i++)
+//    {
+//      print(previous[i] + " , ");
+//    }
 
     // Go through the weighted list and build a path backwards
     // Based on the index of the previous node
     int prevIndex = endIndex;
     while (prevIndex != startIndex)
     {
+//      println("[PathPlanner] pathIndex: " + pathIndex);
+//      println("[PathPlanner] prevIndex: " + prevIndex);
+//      println("[PathPlanner] previous[prevIndex]: " + previous[prevIndex]);
       pathIndex.add(0,prevIndex);
       prevIndex = previous[prevIndex];
     }
     pathIndex.add(0,startIndex);
+//    println("[PathPlanner] pathIndex: " + pathIndex);
     
     // Turn the indices into node
     for (int i = 0; i < pathIndex.size(); i++)

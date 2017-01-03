@@ -23,11 +23,33 @@ BackgroundHandler backgroundHandler;
 //float Left_lon = -71.1715;//-71.1705; 
 //float Right_lon = -71.0212;
 
-//// Bounds for Kendall
-float Top_lat = 42.3901;
-float Bottom_lat = 42.3521;
-float Left_lon = -71.1211;//-71.1705; 
-float Right_lon = -71.071;
+//// Bounds for plot
+float Top_lat = 42.368775;
+float Bottom_lat = 42.361473;
+float Left_lon = -71.092645;//-71.1705; 
+float Right_lon = -71.080661;
+
+
+
+////// Bounds for Kendall
+//float Top_lat = 42.37417;
+//float Bottom_lat = 42.35619;
+//float Left_lon = -71.09986;//-71.1705; 
+//float Right_lon = -71.07784;
+
+
+
+//// Bounds for Camb
+//float Top_lat = 42.3901;
+//float Bottom_lat = 42.3521;
+//float Left_lon = -71.1211;//-71.1705; 
+//float Right_lon = -71.071;
+
+// Bounds for eastern Mass
+//float Top_lat = 42.8846;
+//float Bottom_lat = 41.512;
+//float Left_lon = -72.1; 
+//float Right_lon = -69.955;
 
 // Bounds for Kendall
 //float Top_lat = 42.36296;
@@ -76,9 +98,10 @@ int carsPerAgent = 1; // Each agent represents n cars
 int carsDrawn = 1; // One in every n cars will be drawn to screen
 
 // Simulation timing
-// TODO wierd bug where the simulation time step effects the results of the simulation
 float prevTime;
-float timeStep = 0.1; // simulation time (seconds) / real time (ms)
+// 0.1: 100 sec sim time in 1 sec real time (100x speed)
+// 1.0: 1000 sec sim time in 1 sec real time (1000x speed)
+float timeStep = 0.08; // simulation time (seconds) / real time (ms)
 // Higher numbers make the simulation run faster
 float globalTime = 0; // seconds
 float prevResidueTime = globalTime;
@@ -89,7 +112,7 @@ boolean addResidue;
 // super simple: 10000
 // still normal and lots of nodes: 100
 // looks reasonable but simplified: 1000
-int simplification = 10;
+int simplification = 5;
 
 // Validation
 Car testCar;
@@ -103,9 +126,9 @@ void setup()
   // Load road data
   // All roads:
   println("[QueueingModel] before load data");
-  Table roadTable = loadTable("data/kendall-roads-nodes-clean.csv", "header");
+  Table roadTable = loadTable("data/kendall-roads-small-nodes-clean.csv", "header");
   // Attributes:
-  Table roadAttrTable = loadTable("data/kendall-roads-attr-clean.csv", "header");
+  Table roadAttrTable = loadTable("data/kendall-roads-small-attr-clean.csv", "header");
   println("[QueueingModel] loaded road data");
   Table massTable = loadTable("data/massstatessimple-nodes-clean.csv", "header");
 
@@ -119,7 +142,9 @@ void setup()
   pathPlanner = new PathPlanner(roadNetwork);
 
   // Load population data
-  Table agentsDataTable = loadTable("data/testagents-nodes-clean.csv", "header");
+  Table agentsDataTable = loadTable("data/trafficcounts.csv", "header");
+//  Table agentsDataTable = loadTable("data/kendall-pop-nodes-clean.csv", "header");
+//  Table agentsDataTable = loadTable("data/test-nodes-clean.csv", "header");
 
   // Create agent handler (which creates agents
   agentHandler = new AgentHandler(agentsDataTable, pathPlanner, personPerCar, carsPerAgent, carsDrawn);
@@ -127,19 +152,7 @@ void setup()
   backgroundHandler = new BackgroundHandler(massTable, roadNetwork, agentHandler);
 
   // Start the cars onto the first roads
-  agentHandler.startVehicles(); // 1=hurricane category 1
-
-  // For testing routes
-//  testCar = new Car(pathPlanner, new PVector(42.3954312,-71.1446716), new PVector(42.316884,-71.349732));
-//  testCar = new Car(pathPlanner, new PVector(42.664050,-71.196267), new PVector(42.363008,-71.590473));
-//  testCar = new Car(pathPlanner, new PVector(42.344952,-71.257149), new PVector(41.948803,-71.031340));
-//  testCar = new Car(pathPlanner, new PVector(42.0569,-70.19272), new PVector(41.948803,-71.031340));
-//  testCar = new Car(pathPlanner, new PVector(41.968618,-70.699738), new PVector(42.0569,-70.19272));
-//  testCar = new Car(pathPlanner, new PVector(41.534626,-71.078795), new PVector(41.947685,-71.021003));
-//  testCar = new Car(pathPlanner, new PVector(42.627765,-70.708083), new PVector(42.503305,-71.123658));
-//  testCar = new Car(pathPlanner, new PVector(42.373466,-71.067912), new PVector(42.662933,-71.19588));
-//    testCar = new Car(pathPlanner, new PVector(41.778384,-70.541929), new PVector(42.0569,-70.19272));
-    //  testCar = new Car(pathPlanner, new PVector(41.686426,-70.242325), new PVector(41.947685,-71.021003));
+//  agentHandler.startVehicles(); // 1=hurricane category 1
 
   // Start tracking time
   prevTime = millis();
@@ -151,6 +164,7 @@ void setup()
 
 void draw()
 {
+
 
     if (showFrameRate)
     {
@@ -173,7 +187,34 @@ void draw()
       agentsPGraphic = createGraphics(width, height);
       initialized = true;
       prevTime = millis();
+      
+//      agentHandler.startCars();
+      
+//        for (int i = 0; i < agentHandler.cars.size(); i++)
+//        {
+//          agentHandler.cars.get(i).restart();
+//        }
     }
+    
+    agentHandler.controlCars(globalTime);
+    
+    // start cars
+//    if (int(globalTime/60) == 0) // 6am
+//    {
+//      agentHandler.start6am();
+//    }
+//    if (int(globalTime/60) == 60) // 7am
+//    {
+//      agentHandler.start7am();
+//    }
+//    if (int(globalTime/60) == 120) // 8am
+//    {
+//      agentHandler.start8am();
+//    }
+//    if (int(globalTime/60) == 180) // 9am
+//    {
+//      agentHandler.start9am();
+//    }
   
     // Only adds residue to the graph every 10 minutes (simulation time)
     addResidue = globalTime > prevResidueTime + 10*60; // every 10 min
@@ -231,7 +272,7 @@ void draw()
     
     if (emptyModel)
     {
-      pause = true;
+//      pause = true;
 //      // Histogram, uncomment to print to screen
 //      ArrayList<Integer> time = new ArrayList<Integer>();
 //      ArrayList<Integer> count = new ArrayList<Integer>();
@@ -272,28 +313,154 @@ void draw()
     // Text
     fill(255, 225);
     textSize(height*0.022);
-//    text("Time Elapsed: " + int(globalTime/3600) + " hr " + int(globalTime/60)%60 + " min", width*0.6, height*0.215); 
+    text("Time: " + int(globalTime/3600) + ":" + int(globalTime/60)%60, width*0.8, height*0.96); 
 
 }
 
 // Restart the model based on keyboard input
 void keyPressed()
 {
-  if (key == '1') // restart
+  if (key == '0') // restart
   {
-    println("[QueueingModel] in 1");
+    println("[QueueingModel] in 0");
 //    hurrCat = 1;
     roadNetwork.clearRoads();
-    agentHandler.startVehicles();
-//    backgroundHandler.residueRoad.clear();
-//    backgroundHandler.residueOpacity.clear();
-//    backgroundHandler.residueColor.clear();
     globalTime = 0; 
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
 //    emptymodel = false;
   } 
+  if (key == 'b') // restart
+  {
+    println("[QueueingModel] in b");
+    agentHandler.startBikes();
+  } 
+  if (key == '1') // restart ///////////////////////////////////
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 6*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '2') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 8*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '3') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 10*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '4') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 12*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '5') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 14*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '6') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 16*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '7') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 18*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '8') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 20*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+  if (key == '9') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    globalTime = 22*3600; 
+    prevResidueTime = globalTime;
+    initialized = false;
+    pause = false;
+  } 
+//  if (key == '2') // restart
+//  {
+//    println("[QueueingModel] in 2");
+////    hurrCat = 1;
+//    agentHandler.start7am();
+////    backgroundHandler.residueRoad.clear();
+////    backgroundHandler.residueOpacity.clear();
+////    backgroundHandler.residueColor.clear();
+////    globalTime = 0; 
+//    prevResidueTime = globalTime;
+//    initialized = false;
+//    pause = false;
+////    emptymodel = false;
+//  } 
+//  if (key == '3') // restart
+//  {
+//    println("[QueueingModel] in 3");
+////    hurrCat = 3;
+////    roadNetwork.clearRoads();
+//    agentHandler.start8am();
+////    backgroundHandler.residueRoad.clear();
+////    backgroundHandler.residueOpacity.clear();
+////    backgroundHandler.residueColor.clear();
+////    globalTime = 0; 
+//    prevResidueTime = globalTime;
+//    initialized = false;
+//    pause = false;
+////    emptymodel = false;
+//  } 
+//  if (key == '4') // restart
+//  {
+//    println("[QueueingModel] in 4");
+////    hurrCat = 1;
+////    roadNetwork.clearRoads();
+//    agentHandler.start9am();
+////    backgroundHandler.residueRoad.clear();
+////    backgroundHandler.residueOpacity.clear();
+////    backgroundHandler.residueColor.clear();
+////    globalTime = 0; 
+//    prevResidueTime = globalTime;
+//    initialized = false;
+//    pause = false;
+////    emptymodel = false;
+//  } 
   if (key == 'f') // print the framerate
   {
     // Toggle printing out the framerate
@@ -315,7 +482,7 @@ void keyPressed()
   }
   else if (key == 'p') // print time elapsed
   {
-    println("[QueueingModel] global time (min): " + globalTime/60);
+    println("[QueueingModel] global time (min): " + globalTime/60 + " pause: " + pause);
   }
   // Zoom
   else if (key == '+')

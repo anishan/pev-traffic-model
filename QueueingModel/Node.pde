@@ -100,4 +100,20 @@ public class Node
     return null;
   }
   
+  public boolean validType(String type)
+  {
+    for (Road r: adjRoads)
+    {
+      if (type.equals("bike") && r.bikesAllowed)
+      {
+        return true;
+      }
+      if (type.equals("car") && r.carsAllowed)
+      {
+        return true;
+      }
+    }
+    return false;
+  }
+  
 }
