@@ -25,26 +25,18 @@ public class Car
   // This will also contain approximate information about location along road,
   // for visualization purposes
   PVector current = null;
-  
-  // Agent parameters information
-  public int hurrCat; // Minimum category of hurricane which will require evacuation
-  
+    
   // Timing info (for validation)
   float startTime;
   float endTime;
   float totalTime = 0;
    
-  
-  
   public Car(PathPlanner pathPlanner, PVector start, PVector end, boolean draw)
   {    
     this.path = pathPlanner.getPath(start, end, "car");
     this.draw = draw;
-    this.hurrCat = 1;
-//    this.c = color(255, 170, 0);
     int rand =  (int)(Math.random()*100) + 155;
     this.c = color(rand, rand, rand);
-//    this.restart();
   }
   
   /*
@@ -54,13 +46,10 @@ public class Car
   public void restart()
   {
     this.currentIndex = -1;
-//    println("[Car] path: " + path);
     if (path.size() > 0) // Make sure that a path exists, prevents errors
     {
       this.current = path.get(0).nodes[0].node;
       this.path.get(0).addCar(this);
-//      println("[Car] path: " + this.path);
-//       println("[Car] road cars: " + this.path.get(0).cars, " capacity: " + this.path.get(0).capacity, " waitlist: " + this.path.get(0).waitlist);
     }
     this.startTime = millis();
     totalTime = 0;
@@ -115,22 +104,10 @@ public class Car
   
   ////////////////////////////////////////////////////////////// VISUALIZATION
   
-  // Draw the car as a circle on the main map
-  public void drawCar(MercatorMap mercatorMap)
-  {
-    if (draw)
-    {
-      stroke(c);
-      strokeWeight(2.5);
-      PVector point = mercatorMap.getScreenLocation(this.current);
-      ellipse(point.x, point.y, 2.5, 2.5);
-    }
-  }
-  
+
   // Draw the car using graphics
   public void drawCar(MercatorMap mercatorMap, PGraphics pg)
   {
-//    print(this.current+",");
     if (draw)
     {
       pg.fill(c);

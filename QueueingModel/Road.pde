@@ -34,16 +34,8 @@ public class Road
     this.bikesAllowed = bikesAllowed;
     this.carsAllowed = carsAllowed;
     this.bikeWeighting = bikeWeighting;
-//    this.timeStep = timeStep;
     this.carLength = oneCarLength * carsPerAgent; // one agent Car represents multiple actual cars 
-//    if (speedLimitCar == 0)
-//    {
-      this.speedLimitCar = 8; //m/s, default
-//    }
-//    else
-//    {
-//      this.speedLimitCar = speedLimitCar;
-//    }
+    this.speedLimitCar = 8; //m/s, default
     this.numLanes = numLanes;
     this.roadLength = (int)MercatorMap.latlonToDistance(start.node, end.node);
     this.minTravelTime = roadLength / this.speedLimitCar; //seconds
@@ -56,9 +48,7 @@ public class Road
       capacity = 1;
     }
 
-    this.nodes = new Node[] {
-      start, end
-    };
+    this.nodes = new Node[] {start, end};
     if (carsAllowed)
     {
       this.weightedTimeCars = minTravelTime;
@@ -66,7 +56,6 @@ public class Road
     else
     {
       this.weightedTimeCars = Integer.MAX_VALUE;
-//      println("[Road] weighted time cars: " + weightedTimeCars);
     }
     if (bikesAllowed)
     {
@@ -99,7 +88,6 @@ public class Road
     {
       waitlistBike.add(bike);
     }
-//    bikes.add(bike);
   }
 
   public int getStorageCapacity()
@@ -114,10 +102,10 @@ public class Road
   * When cars reach the end of the road, add them to the waitlist of the next road
   */
   // TODO add if one lane get stuck, the others can still move 
-  public void moveCars(float timeStep, boolean print)
+  public void moveCars(float timeStep)
   {
     // Accept as many cars from the waitlist onto the road as possible 
-    processWaitlist(timeStep, print);
+    processWaitlist(timeStep);
     
     // Variables used for drawing
     PVector nextLoc = nodes[1].node; // The next place the car wants to move to
@@ -144,12 +132,6 @@ public class Road
       {
         it.remove();
       }
-      // If it's not at the destination but is at the end of the road
-//      else if (c.getTimeRemaining() < 0 && cars.indexOf(c) < numLanes)
-//      {
-//        // Add to the waitlist of the next road
-//        c.getNextRoad().addCar(c);
-//      } 
       // Otherwise, it is still moving along the road.
       // This calculates a location along the road for drawing purposes
       else // still on road
@@ -160,8 +142,7 @@ public class Road
           // Add to the waitlist of the next road
           c.getNextRoad().addCar(c);
         }
-        
-        
+
         // The fraction between two points that the car will move
         float fraction;
         // The distance bewteen where it is, and where it wants to be
@@ -194,16 +175,11 @@ public class Road
   * In every time step, allow as many cars to enter the road as possible
   * Accept them off the waitlist in the order they were added to the waitlist
   */
-  public void processWaitlist(float timeStep, boolean print)
+  public void processWaitlist(float timeStep)
   {
     // Calculate number of cars that can enter the road in 1 timestep
     int numSpaces = (int)(timeStep*speedLimitCar/carLength);
     numSpaces = max(1, numSpaces); // Because of int rounding issues, change 0 to 1
-//    print = true;
-//    if (print && (waitlist.size()>0 || cars.size() >0))
-//    {
-//      println("[Road] capacity: " + capacity + " cars: " + cars.size() + " waitlist: " + waitlist.size());
-//    }
 
     // Loop through waitlist for entire list or number of allowed spaces, whichever is smaller
     for (int i = 0; i < min(numSpaces, waitlist.size()); i++)
@@ -211,10 +187,6 @@ public class Road
       // Check that the road as not yet reached its capacity
       if (cars.size() < capacity && waitlist.size()>0)
       {
-        if (print)
-        {
-//          println("[Road] numspaces: " + numSpaces);
-        }
         Car c = waitlist.get(0);
         this.cars.add(c); // Add the car to the main road
         waitlist.remove(0); // Remove it from the waitlist
@@ -226,10 +198,10 @@ public class Road
 
 
 
-  public void moveBikes(float timeStep, boolean print)
+  public void moveBikes(float timeStep)
   {
     // Accept as many cars from the waitlist onto the road as possible 
-    processWaitlistBike(timeStep, print);
+    processWaitlistBike(timeStep);
     
     // Variables used for drawing
     PVector nextLoc = nodes[1].node; // The next place the car wants to move to
@@ -296,7 +268,7 @@ public class Road
   * In every time step, allow as many cars to enter the road as possible
   * Accept them off the waitlist in the order they were added to the waitlist
   */
-  public void processWaitlistBike(float timeStep, boolean print)
+  public void processWaitlistBike(float timeStep)
   {
     for (int i = 0; i < waitlistBike.size(); i++)
     {

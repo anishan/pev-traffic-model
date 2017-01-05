@@ -33,7 +33,6 @@ public class RoadNetwork
     // Loop through all rows of the csv to make roads and nodes
     // Start from 1 because we need to compare to the previous node, so starting frmo 0 would give errors
     for (int i = 1; i < roadTable.getRowCount(); i++) 
-//    for (int i = 1; i < 85; i++) 
     {
       
       if (i%(roadTable.getRowCount()/20) == 0)
@@ -77,48 +76,38 @@ public class RoadNetwork
         PVector start = new PVector(roadTable.getRow(i).getFloat("x"), roadTable.getRow(i).getFloat("y"));
         PVector end = new PVector(roadTable.getRow(i-1).getFloat("x"), roadTable.getRow(i-1).getFloat("y"));
         String otherTags = roadAttrTable.findRow(shapeid + "", "shapeid").getString("other_tags");
-//        println("[RoadNetwork] otherTags: " + otherTags);
         int speedLimitIndex = otherTags.indexOf("mph");
         int speedLimit = 0;
         if (speedLimitIndex >-1)
         {
           speedLimit = int(float(otherTags.substring(speedLimitIndex-3, speedLimitIndex-1))*0.44704);
-//          println("[RoadNetwork] speedlimitindex: " + speedLimitIndex + " speed limit: " + speedLimit); 
         }
-        
-//        int speedLimit = 15;//for bikes //roadAttrTable.findRow(shapeid + "", "shapeid").getInt("SPEEDLIMIT");
-//        speedLimit = int(speedLimit * 0.44704); // to convert to m/s
-//        // To make up for gaps in the data
-//        if (speedLimit == 0)
-//        {
-//          speedLimit = 15;
-//        }
-        int numLanes = 1;// for bikes //roadAttrTable.findRow(shapeid + "", "shapeid").getInt("NUMBEROFTR");
-        
-        
-        
-        
-        
+
         // Restrict access to cars or bikes
         String highwayType = roadAttrTable.findRow(shapeid + "", "shapeid").getString("highway");
-//        String otherTags = roadAttrTable.findRow(shapeid + "", "shapeid").getString("other_tags");
-//        String  = roadAttrTable.findRow(shapeid + "", "shapeid").getString("highway");
         boolean carsAllowed = true;
         boolean bikesAllowed = true;
         if (highwayType.equals("cycleway") || highwayType.equals("footway") || highwayType.equals("steps") || highwayType.equals("bus_guideway") || highwayType.equals("bridleway") || otherTags.contains("railway"))
         {
-//          println("[RoadNetwork] highway type: " + highwayType);
           carsAllowed = false;
         }
         if (highwayType.equals("footway") || highwayType.equals("steps") || highwayType.equals("bus_guideway") || highwayType.equals("bridleway") || otherTags.contains("railway"))
         {
-//          println("[RoadNetwork] " + highwayType + " " + otherTags);
           bikesAllowed = false;
         }
         else if (otherTags.contains("bicycle\"=>\"no"))
         {
-//          println("[RoadNetwork] otherTags: " + otherTags);
           bikesAllowed = false;
+        }
+        
+        // set number of lanes
+        int numLanes = 1;
+        if (carsAllowed)
+        {
+          if (otherTags.contains("lanes\"=>\""))
+          {
+            numLanes = Character.getNumericValue(otherTags.charAt(otherTags.indexOf("lanes\"=>\"")+9));
+          }
         }
         
         // Bicycle road weighting
@@ -126,7 +115,6 @@ public class RoadNetwork
         float bikeWeighting = 1;
         if (highwayType.equals("cycleway") || otherTags.contains("cycleway\"=>\"track") || otherTags.contains("cycleway\"=>\"opposite_track"))
         {
-//          println("[RoadNetwork] " + highwayType + " " + otherTags);
           bikeWeighting = 0.7;
         }
         else if (otherTags.contains("cycleway\"=>\"lane") || otherTags.contains("cycleway:left") || otherTags.contains("cycleway:right") || otherTags.contains("cycleway\"=>\"opposite"))
@@ -160,7 +148,6 @@ public class RoadNetwork
           // Create a new road object
           Road newRoad = new Road(tempNode, prevNode, speedLimit, numLanes, carsPerAgent, carsAllowed, bikesAllowed, bikeWeighting);//last and 2nd to last nodes
           roads.add(newRoad);
-          // TODO only make two roads if both directions
           Road newRoad2 = new Road(prevNode, tempNode, speedLimit, numLanes, carsPerAgent, carsAllowed, bikesAllowed, bikeWeighting);//last and 2nd to last nodes
           roads.add(newRoad2);
           
@@ -171,12 +158,6 @@ public class RoadNetwork
           prevNode.adjRoads.add(newRoad2);
         }
         
-        
-        
-        
-        
-        
-        
       }
       prevNode = tempNode;
     }    
@@ -185,7 +166,6 @@ public class RoadNetwork
     for (int i = 0; i < nodes.size(); i++)
     {
       nodes.get(i).calcAdjNodes();
-//    }
     }
     println();
     println("[RoadNetwork] Finished making road network");
@@ -216,18 +196,6 @@ public class RoadNetwork
     return nodes.get(closestNodeIndex);
   }
   
-  // For a given node, finds its index in this.nodes list
-//  public int getIndex(Node node)
-//  {
-//    for (int i = 0; i < nodes.size(); i++)
-//    {
-//      if (nodes.get(i).equals(node))
-//      {
-//        return i;
-//      }
-//    }
-//    return -1;
-//  }
   
   // Removes all cars from all roads and waitlists
   public void clearRoads()
@@ -236,13 +204,10 @@ public class RoadNetwork
     {
       roads.get(i).cars.clear();
       roads.get(i).waitlist.clear();
-//      roads.get(i).bikes.clear();
-//      roads.get(i).waitlistBike.clear();
+      roads.get(i).bikes.clear();
+      roads.get(i).waitlistBike.clear();
     }
     
   }
   
 }
-
-
-

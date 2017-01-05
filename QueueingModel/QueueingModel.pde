@@ -1,7 +1,6 @@
 // City Traffic Model
 // Anisha Nakagawa
 
-
 // Main Queueing Model
 
 // Storing helper classes 
@@ -17,45 +16,17 @@ BackgroundHandler backgroundHandler;
 // Set up map size and merc projection with lat lon boundaries
 // Change this if using different data sets
 
-// Bounds for Boston
-//float Top_lat = 42.399;
-//float Bottom_lat = 42.3135;
-//float Left_lon = -71.1715;//-71.1705; 
-//float Right_lon = -71.0212;
-
 //// Bounds for plot
 float Top_lat = 42.368775;
 float Bottom_lat = 42.361473;
 float Left_lon = -71.092645;//-71.1705; 
 float Right_lon = -71.080661;
 
-
-
 ////// Bounds for Kendall
 //float Top_lat = 42.37417;
 //float Bottom_lat = 42.35619;
 //float Left_lon = -71.09986;//-71.1705; 
 //float Right_lon = -71.07784;
-
-
-
-//// Bounds for Camb
-//float Top_lat = 42.3901;
-//float Bottom_lat = 42.3521;
-//float Left_lon = -71.1211;//-71.1705; 
-//float Right_lon = -71.071;
-
-// Bounds for eastern Mass
-//float Top_lat = 42.8846;
-//float Bottom_lat = 41.512;
-//float Left_lon = -72.1; 
-//float Right_lon = -69.955;
-
-// Bounds for Kendall
-//float Top_lat = 42.36296;
-//float Bottom_lat = 42.35422;
-//float Left_lon = -71.09647;//-71.1705; 
-//float Right_lon = -71.08079;
 
 
 // Bounding coordinates
@@ -76,19 +47,12 @@ PVector centerOriginal = MercatorMap.intermediate(top_left_corner, bottom_right_
 float edgeDistanceOriginal = max(widthDistance, heightDistance);
 float edgeDistanceOriginalWidth = edgeDistanceOriginal;
 float edgeDistanceOriginalHeight = edgeDistanceOriginal;
-//PVector centerOriginal = MercatorMap.intermediate(top_left_corner, bottom_right_corner, 0.5);
-//float edgeDistanceOriginalWidth = widthDistance;
-//float edgeDistanceOriginalHeight = heightDistance;
 
 PVector viewCenter = centerOriginal;
-//float viewDistance = edgeDistanceOriginal; // For square view
 float viewDistanceWidth = edgeDistanceOriginalWidth;
 float viewDistanceHeight = edgeDistanceOriginalHeight;
 
-
 boolean showFrameRate = false;
-boolean printWaitlist = false;
-
 PGraphics agentsPGraphic;
 boolean initialized = false;
 
@@ -109,13 +73,8 @@ float prevResidueTime = globalTime;
 boolean addResidue;
 
 // To simplify the graph
-// super simple: 10000
-// still normal and lots of nodes: 100
-// looks reasonable but simplified: 1000
+// nodes within specified number of meters will be combined
 int simplification = 5;
-
-// Validation
-Car testCar;
 
 boolean pause = false;
 
@@ -151,9 +110,6 @@ void setup()
   
   backgroundHandler = new BackgroundHandler(massTable, roadNetwork, agentHandler);
 
-  // Start the cars onto the first roads
-//  agentHandler.startVehicles(); // 1=hurricane category 1
-
   // Start tracking time
   prevTime = millis();
   
@@ -178,43 +134,16 @@ void draw()
       PVector viewBottomRight = MercatorMap.endpoint(viewCenter, sqrt(viewDistanceWidth*viewDistanceWidth/4.0 + viewDistanceHeight*viewDistanceHeight/4.0), 90+degrees(atan(viewDistanceHeight/viewDistanceWidth))); // SE
       mercatorMap = new MercatorMap(size, size/aspectRatio, viewTopLeft.x, viewBottomRight.x, viewTopLeft.y, viewBottomRight.y);
 
-//      backgroundHandler.createMassOutline(mercatorMap);
       backgroundHandler.createRoads(mercatorMap);
-      backgroundHandler.createPopCenters(mercatorMap);
-//      backgroundHandler.createResidue(mercatorMap);
-//      backgroundHandler.createText();
       
       agentsPGraphic = createGraphics(width, height);
       initialized = true;
       prevTime = millis();
       
 //      agentHandler.startCars();
-      
-//        for (int i = 0; i < agentHandler.cars.size(); i++)
-//        {
-//          agentHandler.cars.get(i).restart();
-//        }
     }
     
     agentHandler.controlCars(globalTime);
-    
-    // start cars
-//    if (int(globalTime/60) == 0) // 6am
-//    {
-//      agentHandler.start6am();
-//    }
-//    if (int(globalTime/60) == 60) // 7am
-//    {
-//      agentHandler.start7am();
-//    }
-//    if (int(globalTime/60) == 120) // 8am
-//    {
-//      agentHandler.start8am();
-//    }
-//    if (int(globalTime/60) == 180) // 9am
-//    {
-//      agentHandler.start9am();
-//    }
   
     // Only adds residue to the graph every 10 minutes (simulation time)
     addResidue = globalTime > prevResidueTime + 10*60; // every 10 min
@@ -226,8 +155,8 @@ void draw()
       {
         
         Road r = roadNetwork.roads.get(i);
-        r.moveBikes((currentTime-prevTime)*timeStep/3, printWaitlist);
-        r.moveCars((currentTime-prevTime)*timeStep/3, printWaitlist);
+        r.moveBikes((currentTime-prevTime)*timeStep/3);
+        r.moveCars((currentTime-prevTime)*timeStep/3);
         
         // Draw residue
         if (addResidue && r.waitlist.size() > 5) // for congested roads
@@ -240,7 +169,6 @@ void draw()
       globalTime += (currentTime-prevTime)*timeStep;
       prevTime = millis();
     }
-    
     
     
     // Draw the cars
@@ -256,18 +184,14 @@ void draw()
       {
         emptyModel = false;
         // Draw car
-//        println("[QueueingModel] bikes: " + r.bikes.get(i));
         r.bikes.get(i).drawBike(mercatorMap, agentsPGraphic);
-        
       }
       for (int i = r.cars.size() -1; i >=0; i--)
       {
         emptyModel = false;
         // Draw car
         r.cars.get(i).drawCar(mercatorMap, agentsPGraphic);      
-      }
-//      println("[QueueingModel] bikes size: " + r.bikes.size());
-      
+      }      
     }
     
     if (emptyModel)
@@ -300,15 +224,11 @@ void draw()
 //      }
     }
     
-//    testCar.drawCar(mercatorMap, agentsPGraphic);
     agentsPGraphic.endDraw();
     
-    
-  
     // Draw PGraphic
     backgroundHandler.drawAll(mercatorMap);   
     image(agentsPGraphic, 0, 0, width, height);
-//    backgroundHandler.drawText();
     
     // Text
     fill(255, 225);
@@ -323,13 +243,11 @@ void keyPressed()
   if (key == '0') // restart
   {
     println("[QueueingModel] in 0");
-//    hurrCat = 1;
     roadNetwork.clearRoads();
     globalTime = 0; 
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
-//    emptymodel = false;
   } 
   if (key == 'b') // restart
   {
@@ -417,68 +335,10 @@ void keyPressed()
     initialized = false;
     pause = false;
   } 
-//  if (key == '2') // restart
-//  {
-//    println("[QueueingModel] in 2");
-////    hurrCat = 1;
-//    agentHandler.start7am();
-////    backgroundHandler.residueRoad.clear();
-////    backgroundHandler.residueOpacity.clear();
-////    backgroundHandler.residueColor.clear();
-////    globalTime = 0; 
-//    prevResidueTime = globalTime;
-//    initialized = false;
-//    pause = false;
-////    emptymodel = false;
-//  } 
-//  if (key == '3') // restart
-//  {
-//    println("[QueueingModel] in 3");
-////    hurrCat = 3;
-////    roadNetwork.clearRoads();
-//    agentHandler.start8am();
-////    backgroundHandler.residueRoad.clear();
-////    backgroundHandler.residueOpacity.clear();
-////    backgroundHandler.residueColor.clear();
-////    globalTime = 0; 
-//    prevResidueTime = globalTime;
-//    initialized = false;
-//    pause = false;
-////    emptymodel = false;
-//  } 
-//  if (key == '4') // restart
-//  {
-//    println("[QueueingModel] in 4");
-////    hurrCat = 1;
-////    roadNetwork.clearRoads();
-//    agentHandler.start9am();
-////    backgroundHandler.residueRoad.clear();
-////    backgroundHandler.residueOpacity.clear();
-////    backgroundHandler.residueColor.clear();
-////    globalTime = 0; 
-//    prevResidueTime = globalTime;
-//    initialized = false;
-//    pause = false;
-////    emptymodel = false;
-//  } 
   if (key == 'f') // print the framerate
   {
     // Toggle printing out the framerate
     showFrameRate = !showFrameRate;
-  } else if (key == 'd')
-  {
-    // To step through draw if no loop
-    draw();
-  } else if (key == 't') // testing
-  {
-//    testCar.restart();
-//    globalTime = 0;
-  } else if (key == 'T') // testing
-  {
-//    println(testCar.totalTime);
-  } else if (key == 'y')
-  {
-//    println("[QueueingModel] time left on road: " + testCar.timeRemaining);
   }
   else if (key == 'p') // print time elapsed
   {

@@ -1,7 +1,7 @@
 /*
 * Class describing the agents in this model
-* Each car contains information about its origin, destination, and path
-* For the queueing model, each car also knows how much time left on the road
+* Each bike contains information about its origin, destination, and path
+* For the queueing model, each bike also knows how much time left on the road
 */
 public class Bike
 {
@@ -10,7 +10,7 @@ public class Bike
   // Pathfinding information
   Node start;  
   Node end;
-  // Stores path information as a list of roads, in order, that the car must move along
+  // Stores path information as a list of roads, in order, that the bike must move along
   ArrayList<Road> path = new ArrayList<Road>();
 
   // Queueing Model information
@@ -19,46 +19,36 @@ public class Bike
   float timeRemaining; // time left on road
   
   // For drawing
-  boolean draw; // whether this car will be drawn
+  boolean draw; // whether this bike will be drawn
   color c;
   // PVector that will be updated with ever time step to show movement
   // This will also contain approximate information about location along road,
   // for visualization purposes
   PVector current = null;
-  
-  // Agent parameters information
-  public int hurrCat; // Minimum category of hurricane which will require evacuation
-  
+    
   // Timing info (for validation)
   float startTime;
   float endTime;
   float totalTime = 0;
-   
-  
   
   public Bike(PathPlanner pathPlanner, PVector start, PVector end)
   {    
     this.path = pathPlanner.getPath(start, end, "bike");
     this.draw = true;
-    this.hurrCat = 1;
     this.c = color(255, 255, 255);
-//    this.restart();
   }
   
   /*
-  * Start cars from the origin again, for restarting the simulation
+  * Start bikes from the origin again, for restarting the simulation
   * Reset path planning information
   */
   public void restart()
   {
     this.currentIndex = -1;
-//    println("[Car] path: " + path);
     if (path.size() > 0) // Make sure that a path exists, prevents errors
     {
       this.current = path.get(0).nodes[0].node;
       this.path.get(0).addBike(this);
-//      println("[Car] path: " + this.path);
-//       println("[Car] road cars: " + this.path.get(0).cars, " capacity: " + this.path.get(0).capacity, " waitlist: " + this.path.get(0).waitlist);
     }
     this.startTime = millis();
     totalTime = 0;
@@ -67,7 +57,7 @@ public class Bike
   ////////////////////////////////////////////////////////////// QUEUEING MODEL
 
   /*
-  * Return the next road in the path, or null if the car is at the end
+  * Return the next road in the path, or null if the bike is at the end
   */
   public Road getNextRoad()
   {
@@ -81,10 +71,10 @@ public class Bike
     }
   }
 
-  // Behavior for when the car gets accepted onto the next road
+  // Behavior for when the bike gets accepted onto the next road
   public void moveOntoNextRoad()
   {
-    // If already along the path, the remove the car from the current road
+    // If already along the path, the remove the bike from the current road
     if (currentIndex > -1)
     {
       path.get(currentIndex).bikes.remove(this);
@@ -112,23 +102,11 @@ public class Bike
   }
   
   ////////////////////////////////////////////////////////////// VISUALIZATION
+
   
-  // Draw the car as a circle on the main map
-  public void drawBike(MercatorMap mercatorMap)
-  {
-    if (draw)
-    {
-      stroke(c);
-      strokeWeight(2.5);
-      PVector point = mercatorMap.getScreenLocation(this.current);
-      ellipse(point.x, point.y, 2.5, 2.5);
-    }
-  }
-  
-  // Draw the car using graphics
+  // Draw the bike using graphics
   public void drawBike(MercatorMap mercatorMap, PGraphics pg)
   {
-//    print(this.current+",");
     if (draw)
     {
       pg.fill(c);

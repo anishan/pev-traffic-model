@@ -67,14 +67,11 @@ public class Node
   {
     for (Road r: adjRoads)
     {
-//      for (int i = 0; i < r.nodes.length; i++)
-//      {
         // If the node is not this, and has not already been added to adjNodes
         if (r.nodes[0].equals(this) && !adjNodes.contains(r.nodes[1]))
         {
           this.adjNodes.add(r.nodes[1]);
         }
-//      }
     }
   }
   

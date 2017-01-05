@@ -1,8 +1,5 @@
 /*
-* Class to control all the things drawn in the background:
- * - state outlines
- * - Roads
- * - population centers
+* Class to control all the things drawn in the background
  */
 public class BackgroundHandler
 {
@@ -101,15 +98,6 @@ public class BackgroundHandler
     roadPGraphic.endDraw();
   }
 
-  // Draw the population origins as white circles
-  public void createPopCenters(MercatorMap mercatorMap)
-  {
-    popCentersPGraphic = createGraphics(width, height);
-    popCentersPGraphic.beginDraw();
-//    agentHandler.drawPoints(mercatorMap, popCentersPGraphic, hurrCat);
-    popCentersPGraphic.endDraw();
-  }
-
   // Add residue from congested roads
   // Ever time this function is called from the main loop,
   // it increases the opacity and makes the color of the road more red
@@ -157,87 +145,6 @@ public class BackgroundHandler
   }
 
 
-  // Text for the explanation and legend
-  public void createText()
-  {
-    // Name and description
-    textPGraphic = createGraphics(width, height);
-    textPGraphic.beginDraw();
-    textPGraphic.textSize(height*0.035);
-    textPGraphic.text("Hurricane Evacuation Model", width*0.6, height*0.07);
-    textPGraphic.textSize(height*0.02);
-    textPGraphic.fill(255, 200);
-    textPGraphic.text("Simulation of traffic during evacuations", width*0.6, height*0.12);
-    textPGraphic.text("due to hurricanes", width*0.6, height*0.145);
-    
-    // Key interaction instructions
-    textPGraphic.text("Keyboard Controls:", width*0.6, height*0.27);
-    textPGraphic.text("Change hurricane category: 1, 2, 3, or 4", width*0.6, height*0.30);
-    textPGraphic.text("Zoom: + and -", width*0.6, height*0.33);
-    textPGraphic.text("Pan: arrow keys", width*0.6, height*0.36);
-    
-    // Bottom Attribution
-    textPGraphic.textSize(height*0.02);
-    textPGraphic.text("Anisha Nakagawa, MIT Media Lab Changing Places", width*0.6, height*0.98);
-    
-    
-    // legend bar
-    
-    float top = height*0.65;
-    float left = width*0.8;
-    float barWidth = width*0.02;
-    float barHeight = height*0.2;
-    
-    textPGraphic.textSize(height*0.02);
-    textPGraphic.fill(255);
-    textPGraphic.text("Legend", left, height*0.5);
-    textPGraphic.fill(255, 200);
-    textPGraphic.text("Roads", left+1.5*barWidth, height*0.54);
-    textPGraphic.text("People to evacuate", left +1.5*barWidth, height*0.57);
-    // Sample road line
-    textPGraphic.stroke(#00aaff);
-    textPGraphic.strokeWeight(1);
-    textPGraphic.line(left , height*0.53, left+barWidth, height*0.53);
-    // Sample population point
-    textPGraphic.noStroke();
-    textPGraphic.fill(#ffffff, 75);
-    textPGraphic.ellipse(left + 0.75*barWidth, height*0.56, int(15/2), int(15/2));
-    textPGraphic.fill(#ffffff, 50);
-    textPGraphic.ellipse(left  + 0.75*barWidth, height*0.56, int(15*3/4), int(15*3/4));
-    textPGraphic.fill(#ffffff, 25);
-    textPGraphic.ellipse(left + 0.75*barWidth, height*0.56, int(15), int(15));
-    
-    
-    // labels
-    textPGraphic.fill(255);
-    textPGraphic.textSize(height*0.02);
-    textPGraphic.text("Time Spent Congested", left, top - height*0.02);
-    textPGraphic.textSize(height*0.018);
-    textPGraphic.fill(255, 200);
-    textPGraphic.text("20 hr", left+1.5*barWidth, top+height*0.02);
-    textPGraphic.text(" 0 hr", left+1.5*barWidth, top+ barHeight);
-    
-    // rectangles
-    textPGraphic.noStroke();
-    textPGraphic.fill(#00aaff, 75);
-    textPGraphic.rect(left, top, barWidth, barHeight);
-    
-    // Draw Gradient, top (highest) to bottom
-    textPGraphic.noStroke();
-    for (int i = 0; i < 20; i++)
-    {
-      textPGraphic.fill(color(255, 75+1.375*6*i, 55), 255-2.125*6*i);
-      textPGraphic.rect(left, top+(i*barHeight/20.0), barWidth, barHeight/20);
-    }
-
-    textPGraphic.stroke(255, 200);
-    textPGraphic.noFill();
-    textPGraphic.rect(left, top, barWidth, barHeight);
- 
-    textPGraphic.endDraw();
- }
-
-
   // Draws all the background pgraphics, in order
   public void drawAll(MercatorMap mercatorMap)
   {
@@ -251,20 +158,8 @@ public class BackgroundHandler
 
     // Draw roads
     image(roadPGraphic, 0, 0, width, height);
-
-    // Draw pop centers
-    image(popCentersPGraphic, 0, 0, width, height);
-//
-//    // initialize residue
-//    createResidue(mercatorMap);
-//
-//    image(residuePGraphic, 0, 0, width, height);
   }
   
-  
-//  public void drawText()
-//  {
-//    image(textPGraphic, 0, 0, width, height);
-//  }
+ 
 }
 

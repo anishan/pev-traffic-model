@@ -1,0 +1,984 @@
+shapeid,osm_id,name,highway,waterway,aerialway,barrier,man_made,z_order,other_tags
+0,8615280,Windsor Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""157207"",""width""=>""12.2"""
+1,263564989,NULL,NULL,NULL,NULL,NULL,NULL,5,"""old_railway_operator""=>""NYC"",""operator""=>""CSX"",""railway""=>""rail"""
+2,8616079,Harrington Terrace,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""189104"",""width""=>""15.2"""
+3,8615283,Second Street,residential,NULL,NULL,NULL,NULL,3,"""alt_name""=>""2nd Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""198296"",""width""=>""16.8; 15.2"""
+4,263564991,Grand Junction Running Track,NULL,NULL,NULL,NULL,NULL,5,"""old_railway_operator""=>""NYC"",""operator""=>""CSX"",""railway""=>""rail"""
+5,263687294,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+6,8615284,Richardson Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""119059"",""width""=>""6.1"""
+7,263688612,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""sidewalk"""
+8,8616082,Rogers Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""1"",""massgis:way_id""=>""175769"",""width""=>""9.1"""
+9,263688613,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+10,158695006,Harding Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""185348"",""oneway""=>""yes"",""surface""=>""block"",""width""=>""9.1"""
+11,263721948,Dr. Paul Dudley White Path,cycleway,NULL,NULL,NULL,NULL,0,"""cycleway""=>""track"",""foot""=>""yes"",""footway""=>""crossing"""
+12,356867800,NULL,construction,NULL,NULL,NULL,NULL,0,"""access""=>""no"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""construction""=>""trunk_link"",""hgv""=>""no"",""lanes""=>""3"",""massgis:way_id""=>""144604"",""ref""=>""MA 3"",""width""=>""30.5"""
+13,8615286,Vandine Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""188394"",""width""=>""7.9"""
+14,8616089,Bent Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""107137"",""width""=>""14.9"""
+15,263721957,Dr. Paul Dudley White Path,cycleway,NULL,NULL,NULL,NULL,0,"""cycleway""=>""track"",""foot""=>""yes"""
+16,356867801,NULL,construction,NULL,NULL,NULL,NULL,0,"""access""=>""no"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""construction""=>""trunk_link"",""hgv""=>""no"",""lanes""=>""3"",""massgis:way_id""=>""144604"",""ref""=>""MA 3"",""width""=>""30.5"""
+17,356867802,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"""
+18,158695012,Willow Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""181914"",""width""=>""8.5"""
+19,263721959,Dr. Paul Dudley White Path,cycleway,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"",""cycleway""=>""track"",""foot""=>""yes"""
+20,8616091,Amherst Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""145472"",""oneway""=>""yes"",""width""=>""18.3"""
+21,158695015,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"""
+22,327743492,Jefferson Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""202066"",""oneway""=>""yes"",""width""=>""9.8"""
+23,356867803,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""construction""=>""trunk"",""cycleway""=>""lane"",""foot""=>""yes"",""lanes""=>""1"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""motor_vehicle""=>""yes"",""oneway""=>""y"
+24,158695016,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"""
+25,263721961,Dr. Paul Dudley White Path,cycleway,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"",""cycleway""=>""track"",""foot""=>""yes"""
+26,158695017,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"""
+27,263721962,Dr. Paul Dudley White Path,cycleway,NULL,NULL,NULL,NULL,0,"""cycleway""=>""track"",""foot""=>""yes"""
+28,158695018,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+29,263822463,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+30,8616106,NULL,trunk_link,NULL,NULL,NULL,NULL,18,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""lanes""=>""1"",""massgis:way_id""=>""49"",""oneway""=>""yes"",""turn:lanes""=>""reverse"""
+31,8616110,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""145418"",""oneway""=>""yes"",""width""=>""15.2"""
+32,263832798,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+33,426671710,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""turn:lanes""=>""left|"",""width""=>""12.2"""
+34,263834460,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+35,426671711,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""width""=>""12.2"""
+36,263834463,NULL,steps,NULL,NULL,NULL,NULL,0,NULL
+37,426671712,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""width""=>""12.2"""
+38,8616115,Athenaeum Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""199914"",""oneway""=>""no"",""width""=>""15.9"""
+39,361558867,Red Line,NULL,NULL,NULL,NULL,NULL,-15,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#ff0000"",""electrified""=>""rail"",""frequency""=>""0"",""gauge""=>""1435"",""layer""=>""-1"",""line""=>""Red"",""massgis:geom_id""=>""79"",""railway""=>""subway"",""tunnel""=>""yes"",""voltage""=>""6"
+40,263834466,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+41,263835765,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+42,8616121,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+43,8604813,Monsignor O'Brien Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""massgis:way_id""=>""159753"",""oneway""=>""yes"",""ref""=>""MA 28"",""width""=>""30.5"""
+44,364716656,NULL,path,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""bicycle""=>""no"",""foot""=>""permissive"",""horse""=>""no"",""motor_vehicle""=>""private"""
+45,263841884,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+46,364716658,NULL,footway,NULL,NULL,NULL,NULL,10,"""access""=>""private"",""bicycle""=>""no"",""bridge""=>""yes"",""foot""=>""permissive"",""horse""=>""no"""
+47,163650326,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+48,263841885,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+49,163650328,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+50,8616130,Sciarappa Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""193328"",""width""=>""14.6"""
+51,163650330,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+52,368829142,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"",""service""=>""parking_aisle"",""surface""=>""asphalt"""
+53,368829143,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+54,263842175,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+55,8616139,Michael Way,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""157877"",""width""=>""12.2"""
+56,368829144,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"",""service""=>""parking_aisle"",""surface""=>""asphalt"""
+57,8616144,Willow Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""181914"",""oneway""=>""yes"",""width""=>""8.2"""
+58,8615295,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""alt_name""=>""3rd Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""182982"",""width""=>""14.6"""
+59,368829145,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""parking_aisle"",""surface""=>""asphalt"""
+60,263844321,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+61,368989504,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""yes"",""crossing""=>""zebra"",""foot""=>""yes"",""footway""=>""crossing"",""surface""=>""paved"""
+62,368989505,NULL,pedestrian,NULL,NULL,NULL,NULL,0,"""access""=>""yes"",""bicycle""=>""no"",""foot""=>""yes"",""horse""=>""no"",""motor_vehicle""=>""no"",""sidewalk""=>""separate"""
+63,263844322,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""sidewalk"""
+64,369021263,NULL,pedestrian,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""motor_vehicle""=>""no"",""sidewalk""=>""separate"",""surface""=>""concrete"""
+65,263844323,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+66,264034148,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""foot""=>""yes"",""surface""=>""paved"""
+67,8615300,Sixth Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""107849"",""width""=>""15.9"""
+68,370197761,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"",""width""=>""21.3"""
+69,370197990,NULL,footway,NULL,NULL,NULL,NULL,0,"""crossing""=>""zebra"",""footway""=>""crossing"""
+70,8615335,Berkshire Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""127990"",""width""=>""4.3"""
+71,8616187,Washington Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""168059"",""oneway""=>""yes"",""width""=>""12.2"""
+72,8616188,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+73,265455268,Elm Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""123665"",""oneway""=>""yes"",""width""=>""12.8"""
+74,8605306,Warren Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""207152"",""oneway""=>""yes"",""width""=>""9.1"""
+75,8616189,Elm Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""123665"",""oneway""=>""yes"",""width""=>""12.2"""
+76,268973757,Spring Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""191582"",""oneway""=>""-1"",""width""=>""15.2"""
+77,268974027,Thorndike Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""133599"",""oneway""=>""yes"",""width""=>""14.0"""
+78,268980333,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""parking_aisle"""
+79,268980334,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""parking_aisle"""
+80,268980335,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""parking_aisle"""
+81,268980336,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""parking_aisle"""
+82,8615344,Berkshire Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""127990"",""width""=>""4.3"""
+83,268980337,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""parking_aisle"""
+84,434970304,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+85,268980338,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""parking_aisle"""
+86,434970305,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+87,434970306,Escher's Canyon,footway,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""foot""=>""permissive"""
+88,434970307,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""foot""=>""permissive"""
+89,268980339,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""-1"",""service""=>""driveway"""
+90,434976072,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+91,8615357,Seventh Street,residential,NULL,NULL,NULL,NULL,3,"""alt_name""=>""7th Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""1"",""massgis:way_id""=>""124339"",""oneway""=>""yes"",""width""=>""12.2"""
+92,434976073,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+93,434976074,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+94,434976076,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+95,268980340,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""-1"",""service""=>""driveway"""
+96,8615358,Willow Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""181914"",""oneway""=>""yes"",""width""=>""8.5"""
+97,434976077,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+98,268982968,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"",""service""=>""driveway"""
+99,434976079,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+100,8616211,Marney Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""126125"",""width""=>""12.2"""
+101,8605671,NULL,unclassified,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""274"""
+102,434976080,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+103,268982969,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"",""service""=>""parking_aisle"""
+104,434976081,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+105,8616222,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""massgis:way_id""=>""49"""
+106,8605673,NULL,unclassified,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""274"",""oneway""=>""yes"""
+107,434976083,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+108,268982970,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""driveway"""
+109,33468086,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+110,434979487,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+111,268982971,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+112,434979488,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""incline""=>""down"""
+113,8616230,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+114,8605680,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""274"",""service""=>""driveway"""
+115,434979489,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+116,33468092,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+117,8616232,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"""
+118,268982972,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"",""service""=>""driveway"""
+119,434979490,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+120,8615369,Oakland Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""212860"",""width""=>""9.1"""
+121,434987904,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+122,33468094,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+123,434987912,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+124,268985051,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+125,434987919,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+126,434987921,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+127,33468099,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+128,242655751,Wadsworth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""152600"",""width""=>""14.6"""
+129,434987924,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+130,268998725,NULL,service,NULL,NULL,NULL,NULL,-20,"""lanes""=>""2"",""layer""=>""-1"",""service""=>""driveway"",""tunnel""=>""yes"""
+131,435052267,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+132,435052268,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+133,8616238,Broad Canal Way,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"""
+134,33468102,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+135,435052269,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+136,435052270,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+137,435052271,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+138,8615377,Suffolk Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""202735"",""oneway""=>""yes"",""width""=>""10.4"""
+139,435052273,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+140,8616240,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+141,435052275,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+142,8615381,Amherst Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""condition""=>""deficient"",""foot""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""182472"",""motor_vehicle""=>""yes"",""oneway""=>""no"",""width""=>""18.3"""
+143,435052276,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+144,8615384,Union Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""188363"",""width""=>""4.9"""
+145,435052278,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+146,435052279,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+147,435052280,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+148,435052281,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+149,435052282,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+150,435052283,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+151,171955732,NULL,NULL,NULL,NULL,fence,NULL,0,NULL
+152,435052284,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+153,171956409,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+154,435068251,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+155,8616254,Elm Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""123665"",""oneway""=>""yes"",""width""=>""12.8"""
+156,172049984,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""crossing"""
+157,435068252,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+158,8615391,Eighth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""185581"",""oneway""=>""yes"",""width""=>""12.2"""
+159,172049985,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""crossing"""
+160,435068253,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+161,172050574,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""crossing"""
+162,435068254,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+163,33720430,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"",""width""=>""21.3"""
+164,172051135,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+165,329198597,Thorndike Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""133599"",""width""=>""12.2"""
+166,435068255,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+167,172051740,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+168,8615404,Union Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""155667"",""oneway""=>""yes"",""width""=>""9.8"""
+169,435068256,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+170,172053667,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+171,435068257,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+172,172053668,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+173,329198598,Otis Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""108462"",""width""=>""12.8"""
+174,435068258,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+175,172053669,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+176,435068259,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+177,172053670,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+178,329198599,Sciarappa Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""193328"",""width""=>""14.6"""
+179,435068260,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+180,172053671,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+181,8615406,Lilac Court,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""1"",""massgis:way_id""=>""187890"",""surface""=>""unpaved"",""width""=>""3.7"""
+182,435068261,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+183,172053672,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+184,435068262,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+185,172053673,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+186,329198601,Fifth Street,residential,NULL,NULL,NULL,NULL,3,"""alt_name""=>""5th Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""192238"",""width""=>""14.6"""
+187,435077009,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+188,172053674,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+189,435077010,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+190,8615409,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""182982"",""width""=>""18.6"""
+191,172053675,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+192,8615410,Palermo Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""190861"",""width""=>""12.2"""
+193,435077011,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""incline""=>""down"""
+194,172054331,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""bicycle""=>""permissive"",""foot""=>""permissive"""
+195,435077013,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+196,172054332,NULL,service,NULL,NULL,NULL,NULL,-20,"""access""=>""private"",""bicycle""=>""permissive"",""foot""=>""permissive"",""layer""=>""-1"",""tunnel""=>""yes"""
+197,435077014,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+198,172058431,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+199,435077015,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+200,172058432,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+201,33795330,Norfolk Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""171727"",""oneway""=>""yes"",""width""=>""12.2"""
+202,435077016,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+203,172058433,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+204,435077018,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+205,8615419,Albany Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""148710"",""width""=>""14.6"""
+206,172058632,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""incline""=>""up"""
+207,435077019,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+208,33795680,Cambridge Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""179248"",""width""=>""21.3"""
+209,172058633,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+210,8615421,Rogers Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""175769"",""oneway""=>""yes"",""width""=>""15.2"""
+211,435077020,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+212,172059672,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+213,435077021,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+214,435077023,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+215,435077024,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+216,435077026,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""incline""=>""up"""
+217,435077027,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+218,8615426,Harold Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""1"",""massgis:way_id""=>""142478"",""surface""=>""unpaved"",""width""=>""4.6"""
+219,435077028,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+220,435077029,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+221,435079132,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+222,243107429,Monsignor O'Brien Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""massgis:way_id""=>""159753"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""ref""=>""MA 28"",""width""=>""30.5"""
+223,435079133,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+224,435079134,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+225,379698390,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""cycleway""=>""lane"",""lanes""=>""4"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""width""=>""24.4"""
+226,435081076,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""up"""
+227,435102491,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+228,243332868,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+229,435102492,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+230,435102493,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+231,8615440,Lopez Avenue,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""148743"",""width""=>""12.2"""
+232,243332871,NULL,steps,NULL,NULL,NULL,NULL,0,NULL
+233,435102494,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+234,435102495,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+235,8615441,Union Terrace,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""147656"",""width""=>""4.9"""
+236,435102496,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+237,243332872,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+238,435102497,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+239,435102498,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+240,435102499,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+241,435102503,Compton Court,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+242,243332874,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+243,435105967,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+244,435105968,NULL,steps,NULL,NULL,NULL,NULL,0,"""incline""=>""down"""
+245,243332876,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+246,8647657,Monsignor O'Brien Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""massgis:way_id""=>""159753"",""oneway""=>""yes"",""ref""=>""MA 28"",""width""=>""30.5"""
+247,243332878,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+248,243332879,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+249,8615457,Plymouth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""107272"",""oneway""=>""yes"",""width""=>""12.2"""
+250,382228674,Mystic - Somerville - Brighton,NULL,NULL,NULL,NULL,NULL,0,"""cables""=>""6"",""circuits""=>""2"",""frequency""=>""60"",""location""=>""underground"",""power""=>""cable"",""ref""=>""510;511"",""voltage""=>""115000"""
+251,8615466,Hayward Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""186408"",""width""=>""13.4"""
+252,89784393,Red Line,NULL,NULL,NULL,NULL,NULL,35,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""colour""=>""#ff0000"",""electrified""=>""rail"",""frequency""=>""0"",""gauge""=>""1435"",""layer""=>""2"",""line""=>""Red"",""massgis:geom_id""=>""78"",""railway""=>""subway"",""voltage""=>""60"
+253,89784394,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""ref""=>""MA 3"",""width""=>""18.9"""
+254,244441557,NULL,construction,NULL,NULL,NULL,NULL,0,"""access""=>""no"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""construction""=>""trunk_link"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""145418"",""width""=>""15.2"""
+255,89784395,Land Boulevard,trunk,NULL,NULL,NULL,NULL,28,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""3"",""layer""=>""1"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""width""=>""18.9"""
+256,89784396,Land Boulevard,trunk,NULL,NULL,NULL,NULL,28,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""layer""=>""1"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref"
+257,89785703,Land Boulevard,trunk,NULL,NULL,NULL,NULL,28,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""layer""=>""1"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref"
+258,244444287,Longfellow Bridge,construction,NULL,NULL,NULL,NULL,30,"""access""=>""no"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""condition""=>""fair"",""construction""=>""trunk"",""cycleway:left""=>""lane"",""cycleway:right""=>""opposite"",""foot""=>""no"",""lanes""=>""1"",""layer""=>""2"",""oneway""="
+259,89785705,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""1"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""width""=>""30.5"""
+260,89785707,Land Boulevard,trunk,NULL,NULL,NULL,NULL,28,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""layer""=>""1"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""ref""=>""MA 3"",""w"
+261,244444288,Longfellow Bridge,trunk,NULL,NULL,NULL,NULL,38,"""access""=>""yes"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""bridge""=>""yes"",""construction""=>""trunk"",""cycleway""=>""lane"",""foot""=>""yes"",""lanes""=>""1"",""layer""=>""2"",""massgis:way_id""=>""144604"",""motor_vehicle""=>"
+262,89785708,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""wi"
+263,8615476,Otis Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""108462"",""width""=>""12.8"""
+264,89785709,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""ref""=>""MA 3"",""width""=>""18.9"""
+265,89785711,Land Boulevard,trunk,NULL,NULL,NULL,NULL,28,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""layer""=>""1"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""ref""=>""MA 3"",""w"
+266,89785712,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""ref""=>""MA 3"",""width""=>""18.9"""
+267,8614574,Osborn Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""197226"",""width""=>""12.2"""
+268,8615485,NULL,unclassified,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+269,34037036,Norfolk Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""171727"",""oneway""=>""yes"",""width""=>""12.2"""
+270,8615487,Clary Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""132867"",""width""=>""11.6"""
+271,34065677,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"",""width""=>""21.3"""
+272,177774849,Harwell Drive,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""151862"",""width""=>""15.2"""
+273,177774853,Lincoln Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""178502"",""surface""=>""unpaved"",""width""=>""6.1"""
+274,177774856,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+275,8614582,Marcella Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""150887"",""oneway""=>""yes"",""width""=>""12.2"""
+276,177774858,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""ground"""
+277,382537183,NULL,NULL,NULL,NULL,NULL,NULL,0,"""cables""=>""3"",""circuits""=>""2"",""frequency""=>""60"",""location""=>""underground"",""power""=>""cable"",""voltage""=>""115000"""
+278,177774859,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+279,382537187,NULL,NULL,NULL,NULL,NULL,NULL,0,"""frequency""=>""60"",""location""=>""underground"",""power""=>""cable"",""voltage""=>""115000"""
+280,177774861,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+281,382537190,Kendall Substation,NULL,NULL,NULL,NULL,NULL,0,"""frequency""=>""60"",""location""=>""outdoor"",""power""=>""substation"",""substation""=>""transmission"",""voltage""=>""115000"""
+282,34079172,East Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""132004"",""width""=>""12.2"""
+283,177774863,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+284,8614583,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""wi"
+285,177774865,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+286,177774866,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+287,177774868,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+288,177774869,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+289,177774870,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+290,177774872,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+291,177774873,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+292,8614585,Columbia Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""204646"",""maxspeed""=>""25 mph"",""source:maxspeed""=>""massgis"",""width""=>""14.9"""
+293,177774875,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+294,383005632,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""sidewalk"""
+295,279583575,Charles Park,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""motor_vehicle""=>""no"",""surface""=>""paved"""
+296,177774877,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""ground"""
+297,177774878,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+298,383005633,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""footway""=>""sidewalk"",""massgis:way_id""=>""49"""
+299,177774891,NULL,NULL,NULL,NULL,fence,NULL,0,NULL
+300,177774892,NULL,NULL,NULL,NULL,fence,NULL,0,NULL
+301,383005634,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""footway""=>""crossing"",""massgis:way_id""=>""49"""
+302,177774938,NULL,NULL,NULL,NULL,fence,NULL,0,NULL
+303,383005635,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+304,383005636,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+305,8614588,W Harrington Memorial Way,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""131901"",""width""=>""10.7"""
+306,383005637,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""footway""=>""sidewalk"""
+307,383005638,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+308,383005639,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""footway""=>""crossing"""
+309,383005640,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+310,383005641,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+311,383005642,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""footway""=>""crossing"",""massgis:way_id""=>""49"""
+312,8614590,Norfolk Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""171727"",""oneway""=>""yes"",""width""=>""12.2"""
+313,383005643,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+314,383005644,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""foot""=>""permissive"",""footway""=>""crossing"""
+315,383005645,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""footway""=>""crossing"",""massgis:way_id""=>""49"""
+316,383005646,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+317,90709600,Deacon Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""165410"",""width""=>""9.8"""
+318,383005647,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+319,8615520,Gardner Road,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""182462"",""width""=>""9.8"""
+320,90714224,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""sidewalk"""
+321,383005648,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+322,90719013,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""5"",""lanes:backward""=>""3"",""lanes:forward""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""turn:lanes:backward""=>""left|t"
+323,383005649,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+324,281861395,Cambridge Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""179248"",""oneway""=>""yes"",""width""=>""21.3"""
+325,383005650,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""footway""=>""crossing"",""massgis:way_id""=>""49"""
+326,383005652,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+327,383005655,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+328,383005657,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""footway""=>""crossing"",""massgis:way_id""=>""49"""
+329,90758563,Grand Junction Running Track,NULL,NULL,NULL,NULL,NULL,5,"""old_railway_operator""=>""NYC"",""operator""=>""CSX"",""railway""=>""rail"""
+330,383005660,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+331,90758564,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+332,383005663,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""crossing"""
+333,90758565,Grand Junction Running Track,NULL,NULL,NULL,NULL,NULL,-5,"""old_railway_operator""=>""NYC"",""operator""=>""CSX"",""railway""=>""rail"",""tunnel""=>""yes"""
+334,383005664,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"""
+335,90758903,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""width""=>""12.2"""
+336,8615529,Hunting Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""210589"",""oneway""=>""yes"",""width""=>""11.0"""
+337,383005665,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+338,383005666,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""crossing"""
+339,383005667,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+340,383005668,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""crossing"""
+341,383005669,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+342,383005670,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""crossing"""
+343,383005671,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""footway""=>""crossing"",""massgis:way_id""=>""49"""
+344,340542803,Red Line,NULL,NULL,NULL,NULL,NULL,-15,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#ff0000"",""electrified""=>""rail"",""frequency""=>""0"",""gauge""=>""1435"",""layer""=>""-1"",""line""=>""Red"",""massgis:geom_id""=>""79"",""railway""=>""subway"",""tunnel""=>""yes"",""voltage""=>""6"
+345,383005672,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""crossing"""
+346,57743634,Glassworks Avenue,residential,NULL,NULL,NULL,NULL,3,NULL
+347,58336059,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+348,8614614,Market Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""127550"",""oneway""=>""yes"",""width""=>""12.2"""
+349,287384437,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+350,91953221,NULL,NULL,NULL,NULL,NULL,NULL,0,"""addr:housenumber""=>""97"",""owner""=>""City of Cambridge Recreation Department"""
+351,58336095,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+352,287519920,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+353,58336162,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+354,288204892,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+355,58336184,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+356,383593826,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""width""=>""12.2"""
+357,58336189,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+358,383593827,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""width""=>""12.2"""
+359,8615549,Hampshire Court,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""189945"",""oneway""=>""-1"",""service""=>""parking_aisle"",""width""=>""3.0"""
+360,383593828,NULL,secondary,NULL,NULL,NULL,NULL,6,"""oneway""=>""yes"""
+361,8615550,Amherst Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+362,8615556,NULL,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+363,37389388,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+364,8614708,Fifth Street,residential,NULL,NULL,NULL,NULL,3,"""alt_name""=>""5th Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""192238"",""width""=>""14.6"""
+365,38096778,NULL,service,NULL,NULL,NULL,NULL,0,"""lanes""=>""2"",""oneway""=>""yes"""
+366,59034228,Gore Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""149611"",""oneway""=>""yes"",""width""=>""15.2"""
+367,8615568,Washington Court,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""1"",""massgis:way_id""=>""142548"",""surface""=>""unpaved"",""width""=>""4.6"""
+368,8615573,Oak Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""198004"",""oneway""=>""yes"",""width""=>""9.1"""
+369,59034329,McGrath Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""150162"",""maxspeed""=>""40 mph"",""oneway""=>""yes"",""ref""=>""MA 28"",""source:maxspeed""=>""massgis"",""width""=>""45.7"""
+370,93305706,Cambridge Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""179248"",""oneway""=>""yes"",""width""=>""21.3"""
+371,384300258,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+372,8615599,Moore Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""136800"",""width""=>""10.4"""
+373,8614738,Carlisle Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""142506"",""oneway""=>""yes"",""width""=>""11.0"""
+374,384300260,First Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""187849"",""width""=>""14.3"""
+375,384300263,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""w"
+376,384300266,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""turn:lanes""=>""||right"",""width""=>""18.9"""
+377,384306519,Ames Street,tertiary,NULL,NULL,NULL,NULL,4,"""bicycle""=>""designated"",""cycleway""=>""lane"",""lanes""=>""2"",""oneway""=>""no"",""parking:condition:right""=>""ticket"",""parking:lane:right""=>""parallel"",""surface""=>""asphalt"""
+378,384306520,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""width""=>""24.4"""
+379,8615600,Emmett Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""1"",""massgis:way_id""=>""175226"",""width""=>""3.0"""
+380,384306521,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""width""=>""24.4"""
+381,8615601,Amherst Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"",""oneway""=>""yes"""
+382,385213613,Officer William Loughrey Walkway,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""footway""=>""crossing"",""massgis:way_id""=>""49"""
+383,385213614,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+384,385213615,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""sidewalk"""
+385,385213616,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+386,8615608,Village Street,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""153864"",""oneway""=>""yes"",""width""=>""5.2"""
+387,385213617,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+388,442825663,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+389,385213618,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+390,442968315,NULL,secondary_link,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""1"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""width""=>""30.5"""
+391,8614748,Hamlin Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""189114"",""oneway""=>""yes"",""width""=>""12.2"""
+392,385213619,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""crossing"""
+393,442968316,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""alt_name""=>""Broadway"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""construction""=>""secondary"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"""
+394,385213620,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""crossing"""
+395,180349281,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+396,8615611,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+397,385213621,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""crossing"""
+398,442971020,Albany Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""148710"",""width""=>""14.6"""
+399,385213622,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""sidewalk"""
+400,443027018,Portland Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""133479"",""width""=>""14.9"""
+401,84473998,Infinite Corridor,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"",""bicycle""=>""dismount"",""foot""=>""permissive"",""horse""=>""no"",""indoor""=>""yes"",""motor_vehicle""=>""no"""
+402,180990539,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""destination"",""foot""=>""destination"""
+403,8615620,Dock Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""177725"",""width""=>""6.7"""
+404,180991775,NULL,pedestrian,NULL,NULL,NULL,NULL,0,"""bicycle""=>""destination"",""cycleway""=>""no"",""foot""=>""destination"""
+405,180992321,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+406,84473999,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""footway""=>""crossing"""
+407,180993460,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+408,180993492,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+409,84482691,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""paving_stones"""
+410,180993572,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+411,39551418,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+412,180993573,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+413,84482701,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""paving_stones"""
+414,9429793,McGrath Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""150162"",""maxspeed""=>""40 mph"",""oneway""=>""yes"",""ref""=>""MA 28"",""source:maxspeed""=>""massgis"",""width""=>""45.7"""
+415,39551419,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+416,387051951,Landsdowne Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""174123"",""oneway""=>""no"",""width""=>""15.2"""
+417,180994119,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+418,84482703,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""paving_stones"""
+419,387051953,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""4"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""width""=>""24.4"""
+420,180995995,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+421,180996514,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""sidewalk"""
+422,84482710,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""paving_stones"""
+423,84482711,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""paving_stones"""
+424,84482715,NULL,footway,NULL,NULL,NULL,NULL,0,"""surface""=>""paving_stones"""
+425,8614767,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"",""oneway""=>""no"",""service""=>""parking_aisle"""
+426,8615632,Worcester Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""199590"",""oneway""=>""yes"",""width""=>""9.8"""
+427,8615635,Binney Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""width""=>""14.9"""
+428,8615644,Cherry Court,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""146501"",""width""=>""3.7"""
+429,8615647,Crossland Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""116087"",""width""=>""6.1"""
+430,8615650,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""NHS""=>""yes"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""US 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+431,8615656,Binney Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""massgis:way_id""=>""110569"",""oneway""=>""no"",""width""=>""14.9"""
+432,84959408,Clark Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""138851"",""oneway""=>""yes"",""width""=>""9.8"""
+433,84960058,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""designated"""
+434,84960059,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""designated"""
+435,8615659,Cross Street,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""lanes""=>""2"",""massgis:way_id""=>""151139"",""oneway""=>""no"",""width""=>""15.2"""
+436,84960062,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""designated"""
+437,84967433,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+438,84967434,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""sidewalk"""
+439,84967435,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+440,42550285,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+441,84967437,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+442,42769910,Ames Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair; deficient"",""lanes""=>""2"",""massgis:way_id""=>""194740; 196755"",""oneway""=>""no"",""width""=>""15.2; 18.6"""
+443,8614788,Cherry Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""115977"",""oneway""=>""yes"",""width""=>""9.8"""
+444,8615665,Boardman Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""210849"",""width""=>""12.8"""
+445,84967438,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+446,84967444,NULL,footway,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"""
+447,84967445,NULL,footway,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"""
+448,84967447,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+449,8614796,Charles Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""133729"",""width""=>""15.2"""
+450,84967448,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+451,84967449,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+452,84967450,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+453,8614800,Amory Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""183303"",""oneway""=>""yes"",""width""=>""11.6"""
+454,84967451,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+455,84967452,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+456,43101897,Front Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""158017"",""oneway""=>""yes"",""width""=>""12.2"""
+457,398551737,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+458,84967453,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+459,398551738,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"",""foot""=>""permissive"""
+460,43101899,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+461,398551739,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+462,84967457,NULL,footway,NULL,NULL,NULL,NULL,-20,"""layer""=>""-1"",""tunnel""=>""yes"""
+463,398551740,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+464,8614804,Bent Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""192911"",""width""=>""13.7"""
+465,398551741,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+466,398557881,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+467,398562888,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+468,84967460,NULL,footway,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"""
+469,398562889,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+470,8614805,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""134323"",""oneway""=>""yes"",""width""=>""12.2"""
+471,398575652,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+472,398575653,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+473,188046722,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""4"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""width""=>""24.4"""
+474,398575654,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+475,85077135,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+476,398575655,NULL,footway,NULL,NULL,NULL,NULL,0,"""access""=>""permissive"""
+477,188046747,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""lanes""=>""1"",""oneway""=>""yes"""
+478,85077138,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+479,188046759,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""FIXME:hgv""=>""verify"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""1"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+480,188046764,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""lanes""=>""1"",""oneway""=>""yes"""
+481,85077139,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+482,8615685,First Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""187849"",""oneway""=>""yes"",""width""=>""14.3"""
+483,401087039,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+484,401286424,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+485,401286709,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+486,401489181,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+487,401489185,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+488,401489186,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+489,8615694,Lambert Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""173276"",""oneway""=>""yes"",""width""=>""10.4"""
+490,401493824,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+491,401494424,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+492,401494425,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+493,401494426,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+494,401494998,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+495,401495037,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+496,401634039,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+497,401634040,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+498,401634041,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+499,401634042,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+500,401634043,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+501,401634044,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+502,401634307,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+503,401634308,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+504,8615700,Carleton Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""124869"",""oneway""=>""no"",""width""=>""15.2"""
+505,8614818,Lincoln Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""148334"",""oneway""=>""yes"",""width""=>""12.2"""
+506,96256982,Otis Street,residential,NULL,NULL,NULL,NULL,3,NULL
+507,8615702,NULL,secondary_link,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""1"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""width""=>""30.5"""
+508,8615706,Mullins Court,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""170072"",""width""=>""6.1"""
+509,8614821,Cambridgeside Place,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""214395"""
+510,8615712,Fifth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""168583"",""surface""=>""block"",""width""=>""14.6"""
+511,43250077,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+512,97790676,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+513,43250081,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+514,8614825,Pine Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""157913"",""oneway""=>""yes"",""width""=>""9.1"""
+515,8615715,Winter Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""168904"",""width""=>""14.9"""
+516,43250161,NULL,NULL,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"""
+517,43250164,NULL,NULL,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"",""foot""=>""permissive"",""historic:highway""=>""footway"""
+518,43250216,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+519,195607786,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+520,195607787,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"",""service""=>""drive-through"""
+521,43250219,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""bicycle""=>""permissive"",""foot""=>""permissive"""
+522,195607788,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"",""service""=>""driveway"""
+523,43250281,NULL,NULL,NULL,NULL,NULL,NULL,10,"""bridge""=>""yes"""
+524,8615725,Thorndike Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""133599"",""width""=>""14.0"""
+525,43250507,NULL,steps,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""foot""=>""permissive"",""incline""=>""up"""
+526,8615726,State Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""209764"",""oneway""=>""yes"",""width""=>""12.2"""
+527,43250512,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+528,8614838,Lineham Court,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""136876"",""width""=>""9.1"""
+529,43250932,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+530,43250940,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+531,8614841,Munroe Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""122658"",""oneway""=>""yes"",""width""=>""12.2"""
+532,414849058,NULL,footway,NULL,NULL,NULL,NULL,0,"""crossing""=>""zebra"",""footway""=>""crossing"""
+533,43250962,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+534,414849060,NULL,footway,NULL,NULL,NULL,NULL,0,"""crossing""=>""zebra"",""footway""=>""crossing"""
+535,8615732,Bristol Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""129064"",""oneway""=>""yes"",""width""=>""10.1"""
+536,414849062,NULL,footway,NULL,NULL,NULL,NULL,0,"""crossing""=>""zebra"",""footway""=>""crossing"""
+537,200502734,Fulkerson Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""110450"",""oneway""=>""-1"",""width""=>""15.2"""
+538,43250965,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+539,417135697,Market Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""127550"",""oneway""=>""yes"",""width""=>""12.2"""
+540,417135698,Clark Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""138851"",""oneway""=>""yes"",""width""=>""9.8"""
+541,43250967,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+542,8614848,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""width""=>""24.4"""
+543,417887275,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+544,417887278,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+545,43250989,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+546,8614849,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""width""=>""18.9"""
+547,417887280,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+548,43250990,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+549,417887281,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+550,8615735,Eaton Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""212123"",""width""=>""8.5"""
+551,417887282,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+552,43251026,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+553,43251060,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""surface""=>""dirt"""
+554,212292281,NULL,NULL,NULL,NULL,NULL,NULL,0,"""demolished:building""=>""university"""
+555,43251086,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+556,8615738,Spring Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""191582"",""width""=>""15.2"""
+557,43251092,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+558,43251111,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+559,43359141,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+560,8614858,Cornelius Way,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""188037"",""width""=>""12.2"""
+561,43359293,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+562,8614859,Purrington Street,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""129780"",""oneway""=>""no"",""surface""=>""paved"",""width""=>""15.2"""
+563,43359302,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+564,43359306,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+565,43359356,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+566,43359381,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+567,43359471,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+568,43359506,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+569,43359507,NULL,footway,NULL,NULL,NULL,NULL,10,"""access""=>""permissive"",""bridge""=>""yes"",""foot""=>""permissive"""
+570,8615758,Harding Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""205025"",""oneway""=>""yes"",""width""=>""12.2"""
+571,43359950,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"",""oneway""=>""yes"""
+572,43359951,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"",""oneway""=>""yes"""
+573,8614868,Murdock Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""170882"",""width""=>""4.9"""
+574,425598235,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+575,8614870,James Way,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""107296"",""width""=>""12.2"""
+576,425598236,NULL,footway,NULL,NULL,NULL,NULL,0,"""crossing""=>""zebra"",""footway""=>""crossing"""
+577,425598237,NULL,footway,NULL,NULL,NULL,NULL,0,"""crossing""=>""zebra"",""footway""=>""crossing"""
+578,44142794,Norfolk Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""171727"",""oneway""=>""yes"",""width""=>""12.2"""
+579,8614871,School Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""110055"",""oneway""=>""yes"",""width""=>""9.8"""
+580,425598238,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+581,8615769,Bristol Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""129064"",""oneway""=>""yes"",""width""=>""12.2"""
+582,8615773,Tremont Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""165833"",""oneway""=>""yes"",""width""=>""11.6"""
+583,218004437,Green Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#00ff00"",""electrified""=>""contact_line"",""frequency""=>""0"",""gauge""=>""1435"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""tram"",""voltage""=>""600"""
+584,8614882,Bedford Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""152015"",""width""=>""9.1"""
+585,8615774,Water Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""212651"",""width""=>""15.2"""
+586,8614889,Livermore Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""1"",""massgis:way_id""=>""114861"",""width""=>""5.5"""
+587,8615777,Webster Avenue,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""134736"",""width""=>""15.2"""
+588,8615778,Hardwick Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""155399"",""width""=>""12.2"""
+589,220083557,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+590,106002183,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+591,220083558,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+592,220083632,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+593,10067899,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""NHS""=>""yes"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""US 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+594,220083643,NULL,steps,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+595,8615780,Warren Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""161865"",""oneway""=>""yes"",""width""=>""11.6"""
+596,106987173,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"",""footway""=>""sidewalk"""
+597,106989188,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+598,220083644,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"",""footway""=>""crossing"""
+599,8614893,Portland Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""133479"",""width""=>""14.9"""
+600,106989192,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+601,220083655,NULL,footway,NULL,NULL,NULL,NULL,0,"""ramp""=>""yes"""
+602,106989193,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+603,220084576,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+604,106989194,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+605,220084587,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+606,106991434,NULL,steps,NULL,NULL,NULL,NULL,0,"""step_count""=>""5"""
+607,220084588,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+608,106991437,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+609,220084589,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+610,106991438,NULL,NULL,NULL,NULL,wall,NULL,0,NULL
+611,220084649,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+612,8614896,Fifth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""192238"",""surface""=>""block"",""width""=>""14.6"""
+613,106991439,NULL,steps,NULL,NULL,NULL,NULL,0,"""ramp""=>""yes"",""ramp:wheelchair""=>""yes"""
+614,220084669,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+615,220084675,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+616,220084684,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+617,220084917,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+618,426455470,Cambridge Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""lanes:backward""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""179248"",""turn:lanes:backward""=>""through|right"",""width""=>""21.3"""
+619,220085025,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+620,220085034,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+621,10072614,Green Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""163047"",""oneway""=>""yes"",""width""=>""12.2"""
+622,220085036,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+623,8615797,Smart Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""169390"",""width""=>""9.1"""
+624,220085798,NULL,construction,NULL,NULL,NULL,NULL,0,"""oneway""=>""no"""
+625,426455480,Prospect Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""shared_lane"",""lanes""=>""3"",""lanes:backward""=>""1"",""lanes:forward""=>""2"",""massgis:ref""=>""0 N325"",""massgis:way_id""=>""123684"",""turn:lanes:forward""=>"""
+626,220085944,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+627,220086167,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+628,220086171,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+629,8615799,Berkshire Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""124553"",""oneway""=>""yes"",""width""=>""12.8"""
+630,220086172,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+631,426455491,Webster Avenue,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""lanes:backward""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""134736"",""turn:lanes:backward""=>""left|through;right"",""width""=>""15.2"""
+632,220086450,Amherst Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""182472"",""width""=>""18.3"""
+633,220086451,Amherst Street,residential,NULL,NULL,NULL,NULL,-7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""182472"",""tunnel""=>""yes"",""width""=>""18.3"""
+634,220087695,NULL,NULL,NULL,NULL,NULL,NULL,10,"""layer""=>""1"""
+635,220087697,NULL,NULL,NULL,NULL,NULL,NULL,10,"""layer""=>""1"""
+636,220087773,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""massgis:way_id""=>""49"""
+637,220087808,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+638,8615811,Seventh Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""124339"",""oneway""=>""yes"",""width""=>""10.4"""
+639,220088065,NULL,NULL,NULL,NULL,NULL,NULL,10,"""layer""=>""1"""
+640,13588133,Blanche Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""1"",""massgis:way_id""=>""120074"",""oneway""=>""yes"",""width""=>""9.1"""
+641,8615816,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""4"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""width""=>""24.4"""
+642,13588136,Franklin Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""129000"",""oneway""=>""yes"",""width""=>""12.2"""
+643,13591668,Amherst Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""145472"",""width""=>""18.3"""
+644,8615823,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""massgis:way_id""=>""145418"",""oneway""=>""yes"",""width""=>""15.2"""
+645,8614907,Max Avenue,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""168179"",""service""=>""driveway"",""width""=>""8.5"""
+646,23787178,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+647,23787291,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+648,8615828,NULL,unclassified,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+649,8615832,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+650,230168906,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+651,230168909,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+652,230168910,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+653,8615836,NULL,residential,NULL,NULL,NULL,NULL,3,"""access""=>""permissive"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""permissive"",""foot""=>""permissive"",""horse""=>""no"",""massgis:way_id""=>""49"",""surface""=>""paved"""
+654,230168911,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+655,230586048,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+656,8614918,Cardinal Medeiros Avenue,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""3"",""lanes:forward""=>""1"",""massgis:way_id""=>""145333"",""turn:lanes:backward""=>""left|none"",""width""=>""14.9"""
+657,81048833,Grand Junction Running Track,NULL,NULL,NULL,NULL,NULL,5,"""gauge""=>""1435"",""old_railway_operator""=>""NYC"",""operator""=>""CSX"",""railway""=>""rail"",""railway:traffic_mode""=>""freight"",""usage""=>""main"""
+658,8615841,Washington Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""168059"",""oneway""=>""yes"",""width""=>""9.8"""
+659,81048842,NULL,residential,NULL,NULL,NULL,NULL,3,NULL
+660,44807924,Albany Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""148710"",""width""=>""14.6"""
+661,8615842,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+662,233893966,NULL,path,NULL,NULL,NULL,NULL,10,"""bicycle""=>""yes"",""bridge""=>""yes"",""foot""=>""yes"""
+663,44815268,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""lanes""=>""1"",""oneway""=>""yes"""
+664,8615845,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+665,234708475,NULL,pedestrian,NULL,NULL,NULL,NULL,0,NULL
+666,44815359,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""cycleway""=>""lane"",""lanes""=>""4"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""width""=>""24.4"""
+667,234708476,NULL,pedestrian,NULL,NULL,NULL,NULL,-20,"""layer""=>""-1"",""tunnel""=>""yes"""
+668,8615848,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"",""service""=>""driveway"""
+669,234708477,NULL,pedestrian,NULL,NULL,NULL,NULL,0,NULL
+670,234728420,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+671,45302136,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+672,45302341,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+673,123683562,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+674,45302350,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+675,123683563,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+676,235776032,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"",""footway""=>""sidewalk"""
+677,8615858,Gore Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""149611"",""width""=>""15.2"""
+678,123683564,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+679,235850770,NULL,NULL,NULL,NULL,fence,NULL,20,"""fence_type""=>""metal"",""height""=>""1.5"",""layer""=>""2"""
+680,45302491,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+681,235850771,NULL,NULL,NULL,NULL,fence,NULL,20,"""fence_type""=>""metal"",""height""=>""1.5"",""layer""=>""2"""
+682,45302929,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+683,8615860,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+684,236579285,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+685,45303051,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+686,236579287,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+687,254299033,NULL,footway,NULL,NULL,NULL,NULL,20,"""bridge""=>""yes"",""foot""=>""yes"",""footway""=>""sidewalk"",""layer""=>""1"""
+688,45303570,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+689,236579303,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+690,236579314,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+691,236579316,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+692,426493065,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""width""=>""24.4"""
+693,236579317,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+694,8615862,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""no"",""lanes""=>""2"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""wi"
+695,426493068,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""width""=>""24.4"""
+696,236579319,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+697,426493071,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""4"",""lanes:backward""=>""1"",""lanes:forward""=>""3"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""turn:lanes:forward""=>""left|th"
+698,236579320,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+699,426493074,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""turn:lanes""=>""left|through"",""width""="
+700,254299037,NULL,footway,NULL,NULL,NULL,NULL,20,"""bridge""=>""yes"",""foot""=>""yes"",""footway""=>""sidewalk"",""layer""=>""1"""
+701,426493078,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""width""=>""24.4"""
+702,8615863,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+703,426493082,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""width""=>""24.4"""
+704,45469053,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+705,426493085,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""turn:lanes""=>""left||"",""width""=>""12.2"""
+706,426493088,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""turn:lanes""=>""left|through|right"",""width""=>""12.2"""
+707,45469178,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""oneway""=>""yes"""
+708,8614979,York Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""198351"",""oneway""=>""yes"",""width""=>""4.9"""
+709,426493091,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""turn:lanes""=>""left||right"",""width""=>""12.2"""
+710,236626980,Red Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#ff0000"",""electrified""=>""rail"",""frequency""=>""0"",""gauge""=>""1435"",""line""=>""Red"",""massgis:geom_id""=>""78"",""railway""=>""subway"",""voltage""=>""600"""
+711,426493094,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""turn:lanes""=>""|merge_to_left"",""width""=>""12.2"""
+712,236626981,Red Line,NULL,NULL,NULL,NULL,NULL,35,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""colour""=>""#ff0000"",""electrified""=>""rail"",""frequency""=>""0"",""gauge""=>""1435"",""layer""=>""2"",""line""=>""Red"",""massgis:geom_id""=>""78"",""railway""=>""subway"",""voltage""=>""60"
+713,45469212,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"""
+714,254299041,Amherst Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""145472"",""width""=>""18.3"""
+715,426493097,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""width""=>""12.2"""
+716,236626985,NULL,steps,NULL,NULL,NULL,NULL,-20,"""layer""=>""-1"",""tunnel""=>""yes"""
+717,426493100,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""turn:lanes""=>""through|"",""width""=>""12.2"""
+718,236626987,NULL,footway,NULL,NULL,NULL,NULL,-20,"""layer""=>""-1"",""tunnel""=>""yes"""
+719,45469249,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+720,426493103,Hampshire Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""3"",""lanes:backward""=>""2"",""lanes:forward""=>""1"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""166947"",""turn:lanes:backward""=>""left|t"
+721,236626989,NULL,footway,NULL,NULL,NULL,NULL,-20,"""layer""=>""-1"",""tunnel""=>""yes"""
+722,8615870,Marion Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""181090"",""oneway""=>""yes"",""width""=>""9.8"""
+723,426493107,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"",""turn:lanes""=>""left|through;right"",""width""=>""21.3"""
+724,236626991,NULL,NULL,NULL,NULL,NULL,NULL,-5,"""layer""=>""-1"",""public_transport""=>""platform"",""railway""=>""platform"""
+725,426493110,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""lanes:backward""=>""1"",""lanes:forward""=>""2"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""turn:lanes:forward""=>""left"
+726,236626993,NULL,NULL,NULL,NULL,NULL,NULL,-5,"""layer""=>""-1"",""public_transport""=>""platform"",""railway""=>""platform"""
+727,8615871,Gore Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""149611"",""width""=>""15.2"""
+728,426493113,Portland Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""133479"",""width""=>""14.9"""
+729,426493116,Portland Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""lanes:backward""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""133479"",""turn:lanes:backward""=>""left|"",""width""=>""14.9"""
+730,236725382,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""permissive"""
+731,426493119,Portland Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""lanes:backward""=>""1"",""lanes:forward""=>""2"",""massgis:way_id""=>""133479"",""turn:lanes:forward""=>""left|through;right"",""width""=>""14.9"""
+732,236725383,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+733,426493121,Portland Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""lanes:backward""=>""1"",""lanes:forward""=>""2"",""massgis:way_id""=>""133479"",""turn:lanes:forward""=>""left|"",""width""=>""14.9"""
+734,236725384,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+735,236725385,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+736,236725386,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+737,8614986,Dickinson Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""150146"",""width""=>""4.9"""
+738,426496420,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""turn:lanes""=>""left||"",""width""=>""14.9"""
+739,236725387,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+740,426496423,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""turn:lanes""=>""left||"",""width""=>""14.9"""
+741,236725388,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+742,24493995,12,NULL,NULL,NULL,NULL,NULL,0,"""addr:housename""=>""Building 12"",""alt_name""=>""Building 12"",""campusbuilding""=>""yes"",""demolished:building""=>""university"",""ref""=>""12"""
+743,426496427,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+744,236725389,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+745,24576755,Tremont Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""165833"",""oneway""=>""yes"",""width""=>""11.6"""
+746,426496430,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""turn:lanes""=>""left||"",""width""=>""14.9"""
+747,236725390,NULL,NULL,NULL,NULL,NULL,NULL,0,"""access""=>""no"",""seamark:restricted_area:category""=>""construction"",""seamark:type""=>""restricted_area"""
+748,81049053,NULL,footway,NULL,NULL,NULL,NULL,0,"""foot""=>""yes"""
+749,426496433,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""turn:lanes""=>""left||"",""width""=>""14.9"""
+750,236728747,NULL,NULL,NULL,NULL,NULL,pier,0,NULL
+751,426496436,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+752,239457934,Galileo Galilei Way,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""146255"",""oneway""=>""yes"",""width""=>""12.2"""
+753,426496439,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""turn:lanes""=>""left|"
+754,24847780,Norfolk Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""171727"",""width""=>""12.2"""
+755,426496446,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""3"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""turn:lanes""=>""left|through|through"",""wi"
+756,426496452,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""182982"",""width""=>""18.6"""
+757,426496456,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""3"",""lanes:backward""=>""1"",""lanes:forward""=>""2"",""massgis:way_id""=>""182982"",""turn:lanes:forward""=>""left;through|right"",""width""=>""1"
+758,8614993,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""161822"",""service""=>""parking_aisle"",""width""=>""4.9"""
+759,426496459,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""182982"",""width""=>""18.6"""
+760,426496461,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""3"",""lanes:backward""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""182982"",""turn:lanes:backward""=>""left|right"",""width""=>""18.6"""
+761,25463547,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+762,8615889,Linskey Way,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""136164"",""width""=>""9.1"""
+763,132601296,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""lanes""=>""1"",""oneway""=>""yes"""
+764,25482039,NULL,construction,NULL,NULL,NULL,NULL,0,"""access""=>""no"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""construction""=>""trunk_link"",""hgv""=>""no"",""lanes""=>""1"",""massgis:way_id""=>""175887"",""ref""=>""MA 3"",""width""=>""21.3"""
+765,134063352,NULL,NULL,NULL,NULL,NULL,NULL,0,"""admin_level""=>""8"",""attribution""=>""massGIS"",""boundary""=>""administrative"""
+766,8614998,Hurley Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""193474"",""width""=>""15.2"""
+767,8614999,Hampshire Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""166947"",""width""=>""20.7"""
+768,25590130,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"""
+769,25590141,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"""
+770,25590510,Norfolk Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""171727"",""width""=>""12.2"""
+771,8615007,Windsor Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""157207"",""width""=>""15.2"""
+772,25888812,Green Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#00ff00"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""light_rail"""
+773,25888814,Green Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#00ff00"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""light_rail"""
+774,8615906,NULL,construction,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""construction""=>""trunk_link"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""175887"",""oneway""=>""yes"",""width""=>""21.3"""
+775,25888867,Gore Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""149611"",""oneway""=>""yes"",""width""=>""15.2"""
+776,8615911,Landsdowne Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""174123"",""oneway""=>""no"",""width""=>""15.2"""
+777,138749236,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+778,8615924,Second Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""198296"",""oneway""=>""yes"",""width""=>""10.7"""
+779,138749239,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+780,8615926,Gore Street Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""116720"",""width""=>""3.0"""
+781,8615015,Bent Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""192911"",""oneway""=>""yes"",""width""=>""14.3"""
+782,138749242,Cambridge Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""179248"",""oneway""=>""yes"",""width""=>""21.3"""
+783,298494810,NULL,corridor,NULL,NULL,NULL,NULL,0,NULL
+784,138749249,First Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""condition""=>""fair"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""187849"",""width""=>""14.3"""
+785,298495073,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+786,138749269,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""width""=>""21.3"""
+787,27778682,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""1"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+788,298495075,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+789,27778685,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""cycleway""=>""lane"",""lanes""=>""4"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""width""=>""24.4"""
+790,28585443,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"",""surface""=>""asphalt"""
+791,8615944,Porter Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""130161"",""width""=>""11.0"""
+792,138788973,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""w"
+793,8615945,Windsor Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""157207"",""oneway""=>""yes"",""width""=>""15.2"""
+794,138788977,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""FIXME:hgv""=>""verify"",""NHS""=>""yes"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""US 3"",""start_date""=>""05/08/2004"",""width""=>""3"
+795,8615946,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+796,138788989,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+797,8615955,NULL,secondary_link,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"",""oneway""=>""yes"""
+798,8615956,Jefferson Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""202066"",""width""=>""9.8"""
+799,138789021,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""NHS""=>""yes"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""US 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+800,138789027,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+801,138789031,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""no"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+802,8615059,Cresto Terrace,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""1"",""massgis:way_id""=>""114609"",""width""=>""8.5"""
+803,138789034,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""FIXME:hgv""=>""verify"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+804,8615965,Webster Avenue,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""147235"",""width""=>""15.2"""
+805,240684078,MIT Nuclear Reactor Laboratory,NULL,NULL,NULL,NULL,NULL,0,"""building:colour""=>""#EEEEEE"",""building:part""=>""yes"",""generator:method""=>""fission"",""generator:output:electricity""=>""6 MW"",""generator:source""=>""nuclear"",""power""=>""generator"",""roof:colour""=>""#EEEEEE"",""roof:shape""=>""dome"",""start_date""=>""1956"",""wikipedia""=>""e"
+806,139184291,NULL,secondary_link,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""cycleway""=>""lane"",""massgis:way_id""=>""49"",""oneway""=>""yes"""
+807,8615968,Webster Avenue,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""147235"",""oneway""=>""yes"",""width""=>""15.2"""
+808,8615972,Sixth Street,tertiary,NULL,NULL,NULL,NULL,4,"""alt_name""=>""6th Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""107849"",""width""=>""15.2"""
+809,139489905,NULL,steps,NULL,NULL,NULL,NULL,0,NULL
+810,28631895,Vassar Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""condition""=>""fair"",""cycleway""=>""track"",""lanes""=>""2"",""massgis:way_id""=>""128520"",""width""=>""17.1"""
+811,28632018,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+812,8615975,Columbia Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""204646"",""maxspeed""=>""25 mph"",""source:maxspeed""=>""massgis"",""width""=>""14.9"""
+813,8615075,Wadsworth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""152600"",""motor_vehicle""=>""yes"",""oneway""=>""no"",""width""=>""14.6"""
+814,139635443,Green Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#00ff00"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""light_rail"""
+815,139635444,Green Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#00ff00"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""light_rail"""
+816,8615976,NULL,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+817,139635445,Green Line,NULL,NULL,NULL,NULL,NULL,25,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""colour""=>""#00ff00"",""electrified""=>""contact_line"",""frequency""=>""0"",""gauge""=>""1435"",""layer""=>""1"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""tram"",""volta"
+818,139635447,Green Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#00ff00"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""light_rail"""
+819,9267595,Red Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#ff0000"",""electrified""=>""rail"",""frequency""=>""0"",""gauge""=>""1435"",""line""=>""Red"",""massgis:geom_id""=>""78"",""railway""=>""subway"",""voltage""=>""600"""
+820,8615977,Rogers Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""175769"",""width""=>""8.5"""
+821,8615077,York Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""198351"",""oneway""=>""yes"",""width""=>""15.2"""
+822,426604930,Vassar Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""condition""=>""fair"",""cycleway""=>""track"",""lanes""=>""2"",""massgis:way_id""=>""128520"",""turn:lanes:backward""=>""left|through;right"",""width""=>""17.1"""
+823,426604931,Vassar Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""cycleway""=>""track"",""lanes""=>""2"",""massgis:way_id""=>""128520"",""oneway""=>""no"",""turn:lanes:forward""=>""left|"",""width""=>""17.1"""
+824,9267604,Green Line,NULL,NULL,NULL,NULL,NULL,5,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""colour""=>""#00ff00"",""electrified""=>""contact_line"",""frequency""=>""0"",""gauge""=>""1435"",""line""=>""Green"",""massgis:geom_id""=>""10"",""railway""=>""tram"",""voltage""=>""600"""
+825,426604957,Albany Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""3"",""lanes:backward""=>""1"",""lanes:forward""=>""2"",""massgis:way_id""=>""148710"",""turn:lanes:forward""=>""left|through;right"",""width""=>""14.6"""
+826,141123804,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"""
+827,8615080,Fulkerson Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""110450"",""width""=>""15.2"""
+828,141130065,NULL,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"""
+829,141434931,Broad Channel Boardwalk,footway,NULL,NULL,NULL,NULL,0,NULL
+830,8615983,Fourth Street Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""1"",""massgis:way_id""=>""155507"",""width""=>""3.7"""
+831,141434932,Broad Channel Boardwalk,footway,NULL,NULL,NULL,NULL,0,"""bicycle""=>""yes"""
+832,302110867,Medford Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""179856"",""width""=>""15.2"""
+833,141434933,Broad Channel Boardwalk,footway,NULL,NULL,NULL,NULL,20,"""bicycle""=>""yes"",""bridge""=>""yes"",""layer""=>""1"""
+834,141434934,Kendall Street,residential,NULL,NULL,NULL,NULL,3,"""oneway""=>""yes"""
+835,141434935,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+836,8615086,Stevens Court,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""1"",""massgis:way_id""=>""123454"",""surface""=>""unpaved"",""width""=>""3.7"""
+837,141434936,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+838,141434937,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+839,302156851,Ames Street,tertiary,NULL,NULL,NULL,NULL,4,"""bicycle""=>""designated"",""cycleway""=>""lane"",""lanes""=>""2"",""oneway""=>""no"",""parking:condition:right""=>""ticket"",""parking:lane:right""=>""parallel"",""surface""=>""asphalt"""
+840,141434938,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+841,302156855,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""condition""=>""fair"",""cycleway""=>""shared_lane"",""lanes""=>""2"",""massgis:way_id""=>""206060"",""width""=>""24.4"""
+842,141434939,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+843,8615986,Rufo Road,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""146144"",""width""=>""12.2"""
+844,141451461,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+845,141451463,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+846,141451464,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+847,141451465,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+848,29328400,Harvard Bridge,primary,NULL,NULL,NULL,NULL,27,"""alt_name""=>""Massachusetts Avenue"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""4"",""layer""=>""1"",""ref""=>""MA 2A"",""width""=>""29.0"""
+849,141451466,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+850,8615090,Marvin Place,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""1"",""massgis:way_id""=>""204989"",""surface""=>""unpaved"",""width""=>""3.7"""
+851,8615988,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""permissive"",""foot""=>""permissive"",""massgis:way_id""=>""49"""
+852,141451467,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+853,49238447,Cambridge Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""179248"",""width""=>""21.3"""
+854,8615091,Columbia Terrace,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""211331"",""width""=>""4.9"""
+855,141451468,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+856,302156884,Prospect Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""shared_lane"",""lanes""=>""2"",""massgis:ref""=>""0 N325"",""massgis:way_id""=>""123684"",""width""=>""15.2"""
+857,8615092,Thorndike Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""133599"",""width""=>""12.2"""
+858,141451470,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+859,8615992,Officer William Loughrey Walkway,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""massgis:way_id""=>""49"""
+860,141451471,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+861,302156886,Prospect Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:ref""=>""0 N325"",""massgis:way_id""=>""123684"",""width""=>""15.2"""
+862,141451472,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+863,426617802,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,7,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""3"",""lanes:backward""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""turn:lanes:backward""=>""left|through;ri"
+864,8615096,Danforth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""109458"",""width""=>""18.3"""
+865,141451473,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+866,141451476,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+867,141451477,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+868,141451478,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+869,9428930,Bedford Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""lanes""=>""2"",""massgis:way_id""=>""138909"",""width""=>""9.1"""
+870,8615995,NULL,unclassified,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+871,141451479,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+872,141451480,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+873,426625057,Vassar Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""condition""=>""fair"",""cycleway""=>""track"",""lanes""=>""3"",""lanes:backward""=>""1"",""lanes:forward""=>""2"",""massgis:way_id""=>""128520"",""turn:lanes:forward""=>""left;t"
+874,141451482,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+875,426625083,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""FIXME:hgv""=>""verify"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""turn:lanes""=>""left||"","""
+876,141451483,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+877,426625084,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""FIXME:hgv""=>""verify"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+878,141451484,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+879,426625120,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""FIXME:hgv""=>""verify"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""turn:lanes""=>""left||"","""
+880,141451485,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+881,141451486,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+882,141451489,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+883,141451490,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+884,141451491,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+885,141451493,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+886,141451494,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+887,141451495,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+888,141451496,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+889,141451497,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+890,141451499,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+891,141451501,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+892,8616012,Windsor Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""157207"",""width""=>""15.2"""
+893,303073437,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL
+894,8616014,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""private"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""massgis:way_id""=>""49"""
+895,8615137,Seckel Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""148404"",""oneway""=>""yes"",""width""=>""9.1"""
+896,8616015,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""1"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+897,49655243,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""unknown"",""service""=>""parking_aisle"""
+898,8615138,Davis Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:way_id""=>""128094"",""width""=>""11.0"""
+899,8616017,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""FIXME:hgv""=>""verify"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""hgv""=>""yes"",""massgis:way_id""=>""49"",""oneway""=>""yes"""
+900,149924229,Ames Street,tertiary,NULL,NULL,NULL,NULL,4,"""bicycle""=>""yes"",""lanes""=>""2"",""oneway""=>""no"",""parking:condition:right""=>""ticket"",""parking:lane:right""=>""parallel"",""surface""=>""asphalt"""
+901,8615140,Harvard Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:way_id""=>""119558"",""oneway""=>""yes"",""width""=>""14.0"""
+902,149924232,Memorial Drive,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""ref""=>""MA 3"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+903,8616018,NULL,trunk_link,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""hgv""=>""yes"",""lanes""=>""1"",""massgis:way_id""=>""144604"",""oneway""=>""yes"",""start_date""=>""05/08/2004"",""width""=>""30.5"""
+904,49655244,NULL,service,NULL,NULL,NULL,NULL,0,"""access""=>""unknown"",""service""=>""parking_aisle"""
+905,8615144,Portsmouth Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""126965"",""oneway""=>""yes"",""width""=>""12.2"""
+906,8616022,Ames Street,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair; deficient"",""lanes""=>""2"",""massgis:way_id""=>""194740; 196755"",""motor_vehicle""=>""yes"",""oneway""=>""no"",""width""=>""15.2; 18.6"""
+907,8615161,Potter Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""intolerable"",""lanes""=>""2"",""massgis:way_id""=>""182948"",""width""=>""13.4"""
+908,8615169,Otis Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""108462"",""width""=>""14.0"""
+909,426645920,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""4"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""t"
+910,426645925,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""w"
+911,86792411,Massachusetts Avenue,primary,NULL,NULL,NULL,NULL,27,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""cycleway""=>""lane"",""lanes""=>""5"",""lanes:backward""=>""3"",""lanes:forward""=>""2"",""layer""=>""1"",""massgis:way_id""=>""193208"",""ref""=>""MA 2A"",""turn:lanes:backward""=>""left||"
+912,8616031,Norfolk Court,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""intolerable"",""lanes""=>""1"",""massgis:way_id""=>""183641"",""surface""=>""unpaved"",""width""=>""6.1"""
+913,426646440,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""width""=>""18.9"""
+914,426646441,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""w"
+915,426646442,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""4"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""turn:lanes""=>""left|||"",""width""=>""18.9"""
+916,158196754,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+917,426646447,Monsignor O'Brien Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""5"",""massgis:way_id""=>""159753"",""oneway""=>""yes"",""ref""=>""MA 28"",""turn:lanes""=>""left|through|through|through|right"",""width""=>""30.5"""
+918,158197527,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+919,426646448,Monsignor O'Brien Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""massgis:way_id""=>""159753"",""oneway""=>""yes"",""ref""=>""MA 28"",""width""=>""30.5"""
+920,158197528,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+921,158198152,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+922,158198155,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""sidewalk"""
+923,158198156,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+924,158198158,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+925,8615184,Winter Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""168904"",""oneway""=>""yes"",""width""=>""14.9"""
+926,158198373,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+927,426646495,Monsignor O'Brien Highway,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""4"",""massgis:way_id""=>""159753"",""oneway""=>""yes"",""ref""=>""MA 28"",""turn:lanes""=>""left|||"",""width""=>""30.5"""
+928,426649105,Cambridge Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""4"",""lanes:backward""=>""2"",""lanes:forward""=>""2"",""massgis:way_id""=>""179248"",""turn:lanes:backward""=>""through|left"",""turn:lanes:forw"
+929,158302370,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+930,426649111,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""alt_name""=>""3rd Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""3"",""lanes:backward""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""182982"",""turn:lanes:backward""=>""left|through;right"",""wid"
+931,158302371,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL
+932,426649115,Third Street,secondary,NULL,NULL,NULL,NULL,6,"""alt_name""=>""3rd Street"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""182982"",""width""=>""14.6"""
+933,158303665,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+934,158303666,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""driveway"""
+935,158304291,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+936,158304542,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+937,158304543,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+938,8616041,NULL,footway,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""foot""=>""yes"",""massgis:way_id""=>""49"""
+939,158304546,NULL,service,NULL,NULL,NULL,NULL,0,"""service""=>""parking_aisle"""
+940,158304971,Cardinal Medeiros Avenue,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""lanes:forward""=>""1"",""massgis:way_id""=>""145333"",""width""=>""14.9"""
+941,158304972,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+942,158304973,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+943,158304974,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+944,158305163,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+945,356119050,NULL,path,NULL,NULL,NULL,NULL,0,NULL
+946,81161476,West Kendall Street,unclassified,NULL,NULL,NULL,NULL,3,NULL
+947,158305164,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+948,305971439,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+949,158305166,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL
+950,158305245,NULL,footway,NULL,NULL,NULL,NULL,0,"""footway""=>""crossing"""
+951,50266184,Green Line,NULL,NULL,NULL,NULL,NULL,25,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bridge""=>""yes"",""colour""=>""#00ff00"",""electrified""=>""contact_line"",""frequency""=>""0"",""gauge""=>""1435"",""layer""=>""1"",""line""=>""Green"",""massgis:geom_id""=>""65"",""railway""=>""tram"",""volta"
+952,356119051,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+953,356119052,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+954,356124053,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""3"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""width""=>""18.9"""
+955,356124054,Cambridge Parkway,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""good"",""lanes""=>""2"",""massgis:ref""=>""0 N155"",""massgis:way_id""=>""113284"",""oneway""=>""yes"",""width""=>""22.9"""
+956,426659490,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""3"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""turn:lanes""=>""left||"",""width""=>""14.9"""
+957,356126123,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""width""=>""18.9"""
+958,356126851,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+959,426659491,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+960,356127309,Cambridge Parkway Bike Path,cycleway,NULL,NULL,NULL,NULL,0,NULL
+961,426659492,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+962,426659493,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+963,8615250,Citizens Place,service,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""189883"",""width""=>""15.2"""
+964,426659494,Binney Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""deficient"",""cycleway""=>""lane"",""hazmat""=>""designated"",""lanes""=>""2"",""massgis:way_id""=>""110569"",""oneway""=>""yes"",""width""=>""14.9"""
+965,356674425,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"",""width""=>""21.3"""
+966,8615259,Bishop Allen Drive,tertiary,NULL,NULL,NULL,NULL,4,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""154479"",""width""=>""13.4"""
+967,32500315,NULL,footway,NULL,NULL,NULL,NULL,0,NULL
+968,356674429,NULL,service,NULL,NULL,NULL,NULL,0,NULL
+969,32526481,NULL,footway,NULL,NULL,NULL,NULL,20,"""bridge""=>""yes"",""layer""=>""1"""
+970,356674431,NULL,service,NULL,NULL,NULL,NULL,0,"""oneway""=>""yes"""
+971,8615267,Endicott Street,residential,NULL,NULL,NULL,NULL,3,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""lanes""=>""2"",""massgis:way_id""=>""109152"",""width""=>""18.3"""
+972,426659497,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""5"",""massgis:ref""=>""0 N337"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""old_ref""=>""SR 3"",""oneway""=>""yes"",""t"
+973,356677795,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""3"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""sidewalk""=>""right"",""turn:lanes""=>""left||"",""width""=>""24.4"
+974,426659498,Land Boulevard,trunk,NULL,NULL,NULL,NULL,8,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""hgv""=>""yes"",""lanes""=>""2"",""massgis:way_id""=>""147092"",""official_name""=>""Edwin H. Land Boulevard"",""oneway""=>""yes"",""width""=>""18.9"""
+975,356677796,NULL,secondary_link,NULL,NULL,NULL,NULL,6,NULL
+976,32527214,Bexley Hall,NULL,NULL,NULL,NULL,NULL,0,"""addr:state""=>""MA"",""demolished:building""=>""dormitory"",""gnis:county_name""=>""Middlesex"",""gnis:feature_id""=>""1970995"",""gnis:import_uuid""=>""57871b70-0100-4405-bb30-88b2e001a944"",""ref""=>""W13"""
+977,356677797,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""yes"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""width""=>""24.4"""
+978,356677798,Broadway,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""2"",""massgis:ref""=>""0 N324"",""massgis:way_id""=>""206060"",""oneway""=>""yes"",""width""=>""24.4"""
+979,263564405,Vassar Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""bicycle""=>""designated"",""cycleway""=>""track"",""lanes""=>""2"",""massgis:way_id""=>""128520"",""oneway""=>""no"",""width""=>""17.1"""
+980,356678461,Main Street,secondary,NULL,NULL,NULL,NULL,6,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"",""width""=>""21.3"""
+981,356678546,Main Street,construction,NULL,NULL,NULL,NULL,0,"""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""construction""=>""trunk_link"",""cycleway:left""=>""lane"",""cycleway:right""=>""opposite"",""lanes""=>""1"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>"
+982,356679644,Main Street,construction,NULL,NULL,NULL,NULL,0,"""alt_name""=>""Broadway"",""attribution""=>""Office of Geographic and Environmental Information (MassGIS)"",""condition""=>""fair"",""construction""=>""secondary"",""cycleway""=>""lane"",""lanes""=>""1"",""massgis:ref""=>""0 N323"",""massgis:way_id""=>""147645"",""oneway""=>""yes"""
