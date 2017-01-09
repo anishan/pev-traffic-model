@@ -9,7 +9,7 @@ public class Road
 {
 
   int speedLimitCar;
-  float bikeSpeed = 9;//m/s, according to wikipedia
+  float bikeSpeed = 4;
   int bikeLength = 3;
   int roadLength;
   int weightedTimeCars;

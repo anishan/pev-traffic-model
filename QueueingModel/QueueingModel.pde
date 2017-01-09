@@ -258,6 +258,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 6*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -267,6 +268,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 8*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -276,6 +278,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 10*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -285,6 +288,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 12*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -294,6 +298,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 14*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -303,6 +308,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 16*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -312,6 +318,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 18*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -321,6 +328,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 20*3600; 
     prevResidueTime = globalTime;
     initialized = false;
@@ -330,6 +338,7 @@ void keyPressed()
   {
     roadNetwork.clearRoads();
     agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
     globalTime = 22*3600; 
     prevResidueTime = globalTime;
     initialized = false;
