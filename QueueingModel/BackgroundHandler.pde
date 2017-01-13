@@ -125,6 +125,7 @@ public class BackgroundHandler
     {
       residueRoad.add(r);
       residueOpacity.add(2.125);
+//      residueOpacity.add(100.0);
       residueColor.add(240.0);
     }
   }
@@ -158,6 +159,10 @@ public class BackgroundHandler
 
     // Draw roads
     image(roadPGraphic, 0, 0, width, height);
+    
+    createResidue(mercatorMap);
+    image(residuePGraphic, 0, 0, width, height);
+
   }
   
  

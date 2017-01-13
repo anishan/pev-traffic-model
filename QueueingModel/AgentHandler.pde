@@ -66,8 +66,29 @@ public class AgentHandler
       int hour = dataTable.getRow(i).getInt("time_since_midnight");
       String type = dataTable.getRow(i).getString("type");
       String loc = dataTable.getRow(i).getString("start");
+      
+//      float randTransport = Math.random();
+//      if (randTransport < 0.391)
+//      {
+//        // Is a car
+//        if (i%carsDrawn ==0)
+//        {
+//          draw = true;
+//          cardrawn++;
+//          timedCars.get(hour).add(new Car(pathPlanner, start, end, draw));
+//          numcars++;
+//        } 
+//      }
+//      else if (randTransport < 0.42)
+//      {
+//        // Is a bike
+//        timedBikes.get(hour).add(new Bike(pathPlanner, start, end));
+//        numbikes++;
+//      }
 
-      for (int j = 0; j < pop; j++) // half of people drive in rush hour
+
+//
+      for (int j = 0; j < pop; j++) 
       {
         if (j%carsDrawn ==0)
         {
@@ -127,7 +148,7 @@ public class AgentHandler
     }
 
     println();
-    println("[AgentHandler] Num cars drawn: " + cardrawn);
+    println("[AgentHandler] Num agents drawn: " + cardrawn);
     println("[AgentHandler] Num cars: " + numcars);
     println("[AgentHandler] Num bikes: " + numbikes);
     println("[AgentHandler] Finished agent handler");

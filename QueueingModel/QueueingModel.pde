@@ -135,6 +135,7 @@ void draw()
       mercatorMap = new MercatorMap(size, size/aspectRatio, viewTopLeft.x, viewBottomRight.x, viewTopLeft.y, viewBottomRight.y);
 
       backgroundHandler.createRoads(mercatorMap);
+      backgroundHandler.createResidue(mercatorMap);
       
       agentsPGraphic = createGraphics(width, height);
       initialized = true;
@@ -159,7 +160,7 @@ void draw()
         r.moveCars((currentTime-prevTime)*timeStep/3);
         
         // Draw residue
-        if (addResidue && r.waitlist.size() > 5) // for congested roads
+        if (addResidue && (r.cars.size() > r.capacity*0.25))// && r.waitlist.size() > 5) // for congested roads
         {
           backgroundHandler.addResidue(r);
           prevResidueTime = globalTime;

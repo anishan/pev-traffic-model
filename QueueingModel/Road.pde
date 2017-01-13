@@ -16,7 +16,7 @@ public class Road
   int weightedTimeBikes;
   int numLanes;
   int capacity;
-  float oneCarLength = 7.5;
+  float oneCarLength = 15;
   float carLength; //meters
   boolean carsAllowed;
   boolean bikesAllowed;
