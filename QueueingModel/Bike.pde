@@ -35,8 +35,9 @@ public class Bike
   {    
     this.path = pathPlanner.getPath(start, end, "bike");
     this.draw = true;
-    int rand =  (int)(Math.random()*100) + 155;
-    this.c = color(255, rand, 0);
+//    int rand =  (int)(Math.random()*100) + 155;
+//    this.c = color(255, rand, 0);
+    this.c = color(50, 200, 100);
   }
   
   /*
@@ -113,7 +114,7 @@ public class Bike
       pg.fill(c);
       pg.noStroke();
       PVector point = mercatorMap.getScreenLocation(this.current);
-      pg.ellipse(point.x, point.y, 5, 5);
+      pg.ellipse(point.x, point.y, 7, 7);
     }
   }
 

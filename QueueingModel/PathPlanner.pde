@@ -38,6 +38,10 @@ public class PathPlanner
     // Get the nodes of the graph (road network) closest to the given lat lon
     Node start = roads.getClosestNode(startPt.x, startPt.y, type);
     Node end = roads.getClosestNode(endPt.x, endPt.y, type);
+    if ((MercatorMap.latlonToDistance(start.node, startPt) > 500) || (MercatorMap.latlonToDistance(end.node, endPt) > 500)) // other parts of the city
+    {
+      return new ArrayList<Road>();
+    }
     try // sometimes errors because of different types of roads
     {
       if (start.equals(end))

@@ -71,6 +71,7 @@ float globalTime = 0; // seconds
 float prevResidueTime = globalTime;
 
 boolean addResidue;
+boolean getHistogram = false;
 
 // To simplify the graph
 // nodes within specified number of meters will be combined
@@ -101,7 +102,7 @@ void setup()
   pathPlanner = new PathPlanner(roadNetwork);
 
   // Load population data
-  Table agentsDataTable = loadTable("data/trafficcounts.csv", "header");
+  Table agentsDataTable = loadTable("data/acs-od-data-bos-counts.csv", "header");
 //  Table agentsDataTable = loadTable("data/kendall-pop-nodes-clean.csv", "header");
 //  Table agentsDataTable = loadTable("data/test-nodes-clean.csv", "header");
 
@@ -136,6 +137,7 @@ void draw()
 
       backgroundHandler.createRoads(mercatorMap);
       backgroundHandler.createResidue(mercatorMap);
+      backgroundHandler.createODPoints(mercatorMap);
       
       agentsPGraphic = createGraphics(width, height);
       initialized = true;
@@ -148,6 +150,7 @@ void draw()
   
     // Only adds residue to the graph every 10 minutes (simulation time)
     addResidue = globalTime > prevResidueTime + 10*60; // every 10 min
+//    addResidue = false;
     float currentTime = millis();
     if (!pause)
     {  
@@ -195,40 +198,45 @@ void draw()
       }      
     }
     
-    if (emptyModel)
+    if (getHistogram)
     {
-//      pause = true;
-//      // Histogram, uncomment to print to screen
-//      ArrayList<Integer> time = new ArrayList<Integer>();
-//      ArrayList<Integer> count = new ArrayList<Integer>();
-//      for (Car c: agentHandler.cars)
-//      {
-//        if (c.totalTime != 0)
-//        {
-//          int timeInt = int(c.totalTime/3600); // hours
-//          if (time.contains(timeInt))
-//          {
-//            int index = time.indexOf(timeInt);
-//            int countInt = count.remove(index);
-//            count.add(index, countInt+1);
-//          }
-//          else
-//          {
-//            time.add(int(c.totalTime/3600));
-//            count.add(1);
-//          }
-//        }
-//      }
-//      for (int i = 0; i < time.size(); i ++)
-//      {
-//        println(time.get(i) + "," + count.get(i));
-//      }
+      pause = true;
+      // Histogram, uncomment to print to screen
+      ArrayList<Integer> time = new ArrayList<Integer>();
+      ArrayList<Integer> count = new ArrayList<Integer>();
+      for (ArrayList<Car> carList: agentHandler.timedCars)
+      {
+        for (Car c: carList)
+        {
+          if (c.totalTime != 0)
+          {
+//            println("[QueueingModel] car time: " + c.totalTime);
+            int timeInt = 10*int(c.totalTime/600); // hours
+            if (time.contains(timeInt))
+            {
+              int index = time.indexOf(timeInt);
+              int countInt = count.remove(index);
+              count.add(index, countInt+1);
+            }
+            else
+            {
+              time.add(int(c.totalTime/3600));
+              count.add(1);
+            }
+          }
+        }
+      }
+      for (int i = 0; i < time.size(); i ++)
+      {
+        println(time.get(i) + "," + count.get(i));
+      }
+      getHistogram = false;
     }
     
     agentsPGraphic.endDraw();
     
     // Draw PGraphic
-    backgroundHandler.drawAll(mercatorMap);   
+    backgroundHandler.drawAll(mercatorMap, int(globalTime/3600));   
     image(agentsPGraphic, 0, 0, width, height);
     
     // Text
@@ -249,6 +257,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == 'b') // restart
   {
@@ -264,6 +276,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '2') // restart
   {
@@ -274,6 +290,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '3') // restart
   {
@@ -284,6 +304,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '4') // restart
   {
@@ -294,6 +318,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '5') // restart
   {
@@ -304,6 +332,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '6') // restart
   {
@@ -314,6 +346,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '7') // restart
   {
@@ -324,6 +360,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '8') // restart
   {
@@ -334,6 +374,10 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
   if (key == '9') // restart
   {
@@ -344,7 +388,23 @@ void keyPressed()
     prevResidueTime = globalTime;
     initialized = false;
     pause = false;
+    backgroundHandler.residueRoad.clear();
+    backgroundHandler.residueOpacity.clear();
+    backgroundHandler.residueColor.clear();
+    prevResidueTime = globalTime;
   } 
+  if (key == 'l') // restart
+  {
+    roadNetwork.clearRoads();
+    agentHandler.activeCars.clear();
+    agentHandler.activeBikes.clear();
+    prevResidueTime = globalTime;
+    initialized = false;
+  } 
+  if (key == 'h') // print histogram data
+  {
+    getHistogram = true;
+  }
   if (key == 'f') // print the framerate
   {
     // Toggle printing out the framerate
@@ -411,6 +471,10 @@ void keyPressed()
   {
     pause = !pause;
     prevTime = millis();
+  }
+  if (key == 'g')
+  {
+    println("[QueueingModel] time: " + globalTime);
   }
 
 }

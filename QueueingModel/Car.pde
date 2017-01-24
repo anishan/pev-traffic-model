@@ -8,8 +8,8 @@ public class Car
 //  RoadNetwork roads;
 
   // Pathfinding information
-  Node start;  
-  Node end;
+  PVector start;  
+  PVector end;
   // Stores path information as a list of roads, in order, that the car must move along
   ArrayList<Road> path = new ArrayList<Road>();
 
@@ -35,8 +35,11 @@ public class Car
   {    
     this.path = pathPlanner.getPath(start, end, "car");
     this.draw = draw;
-    int rand =  (int)(Math.random()*100) + 155;
-    this.c = color(rand, rand, rand);
+    this.start = start;
+    this.end = end;
+//    int rand =  (int)(Math.random()*100) + 155;
+//    this.c = color(rand, rand, rand);
+    this.c = color(255, 255, 255);
   }
   
   /*

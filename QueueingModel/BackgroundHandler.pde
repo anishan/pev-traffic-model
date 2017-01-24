@@ -14,6 +14,8 @@ public class BackgroundHandler
   ArrayList<Float> residueColor = new ArrayList<Float>(); // only storing g value
   ArrayList<Road> residueRoad = new ArrayList<Road>();
   PGraphics residuePGraphic;
+  PGraphics ODPGraphic;
+  PGraphics [] ODPGraphics = new PGraphics[24];
   PGraphics textPGraphic;
   int prevTime;
 
@@ -24,6 +26,10 @@ public class BackgroundHandler
     agentHandler = agents;
     prevTime = 0;
     residuePGraphic = createGraphics(width, height);
+    //    for (int i = 0; i < ODPGraphics.length; i++)
+    //    {
+    //      ODPGraphics[i] = createGraphics(width, height);
+    //    }
   }
 
 
@@ -82,6 +88,18 @@ public class BackgroundHandler
     massOutline.add(s);
   }
 
+  // Draw the population origins as white circles
+  public void createODPoints(MercatorMap mercatorMap)
+  {
+//    for (int i = 0; i < ODPGraphics.length; i++)
+//    {
+      ODPGraphic = createGraphics(width, height);
+      ODPGraphic.beginDraw();
+      agentHandler.drawPoints(mercatorMap, ODPGraphic, 0);
+      ODPGraphic.endDraw();
+//    }
+  }
+
   // Draw the roads onto a pgraphic, and save it
   // These will not change over time
   public void createRoads(MercatorMap mercatorMap)
@@ -111,13 +129,12 @@ public class BackgroundHandler
     {
       int index = residueRoad.indexOf(r);
       float prevOpacity = residueOpacity.remove(index);
-      residueOpacity.add(index, prevOpacity+2.125); // Increase opacity
+      residueOpacity.add(index, prevOpacity+12); // Increase opacity
       float prevG = residueColor.remove(index); // Change color
       if (prevG > 75)
       {
-        residueColor.add(index, prevG-1.375);
-      }
-      else 
+        residueColor.add(index, prevG-8);
+      } else 
       {
         residueColor.add(index, prevG);
       }
@@ -125,7 +142,7 @@ public class BackgroundHandler
     {
       residueRoad.add(r);
       residueOpacity.add(2.125);
-//      residueOpacity.add(100.0);
+      //      residueOpacity.add(100.0);
       residueColor.add(240.0);
     }
   }
@@ -147,8 +164,9 @@ public class BackgroundHandler
 
 
   // Draws all the background pgraphics, in order
-  public void drawAll(MercatorMap mercatorMap)
+  public void drawAll(MercatorMap mercatorMap, int hour)
   {
+    //    println("[BackgroundHandler] hour: " + hour);
     background(#003345);
 
     // Draw state boundaries
@@ -158,13 +176,12 @@ public class BackgroundHandler
     }
 
     // Draw roads
-    image(roadPGraphic, 0, 0, width, height);
-    
-    createResidue(mercatorMap);
-    image(residuePGraphic, 0, 0, width, height);
+    image(roadPGraphic, 0, 0, width, height); 
+    image(ODPGraphic, 0, 0, width, height);    
 
+    createResidue(mercatorMap);
+
+    image(residuePGraphic, 0, 0, width, height);
   }
-  
- 
 }
 
