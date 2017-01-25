@@ -63,6 +63,6 @@ Download Processing 2.2.1 from [processing.org] (processing.org). Open the Queue
 
 ---
 Anisha Nakagawa  
-MIT Media Lab, Changing Places group
-Advisor: Ira Winder
+MIT Media Lab, Changing Places group  
+Advisor: Ira Winder  
 Fall 2016
