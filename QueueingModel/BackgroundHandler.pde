@@ -129,7 +129,7 @@ public class BackgroundHandler
     {
       int index = residueRoad.indexOf(r);
       float prevOpacity = residueOpacity.remove(index);
-      residueOpacity.add(index, prevOpacity+12); // Increase opacity
+      residueOpacity.add(index, prevOpacity+15); // Increase opacity
       float prevG = residueColor.remove(index); // Change color
       if (prevG > 75)
       {
@@ -141,7 +141,7 @@ public class BackgroundHandler
     } else // otherwise, add the road to the list
     {
       residueRoad.add(r);
-      residueOpacity.add(2.125);
+      residueOpacity.add(20.0);
       //      residueOpacity.add(100.0);
       residueColor.add(240.0);
     }
@@ -176,8 +176,8 @@ public class BackgroundHandler
     }
 
     // Draw roads
+    image(ODPGraphic, 0, 0, width, height); 
     image(roadPGraphic, 0, 0, width, height); 
-    image(ODPGraphic, 0, 0, width, height);    
 
     createResidue(mercatorMap);
 

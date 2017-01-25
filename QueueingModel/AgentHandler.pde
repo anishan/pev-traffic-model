@@ -188,61 +188,66 @@ public class AgentHandler
 
 
     // Add more housing in Kendall Sq
-    //    for (int k = 0; k < 500; k++)
-    //    {
-    //      // randomize start point within that property
-    //      float randstarty = (float) (-71.08604 + (Math.random()*(-71.08431 - -71.08604)));
-    //      float randstartx = (float) (42.36287 + (Math.random()*(42.36615 - 42.36287)));
-    //      PVector end = new PVector(randstartx, randstarty);
-    //      
-    //      // choose a destination
-    //      float randendy = (float) (42.361473 + (42.368775 - 42.361473) * Math.random());
-    //      float randendx = (float) (-71.092645 + (-71.080661 - -71.092645) * Math.random());
-    //      float[][] destinations = {{42.36156,-71.07528},{42.35471,-71.09148},{42.36355,-71.10040},{42.37323,-71.10040},{randendx,randendy}}; // longfellow, mass ave bridge, main st, hampshire, random
-    //      int random = (int)(Math.random() * 5);
-    //      PVector start = new PVector(destinations[random][0], destinations[random][1]);
-    //      
-    //      
-    //      // chose hour of the day based on probability
-    //      double randHour = Math.random();
-    //      
-    //      int hour = 0;
-    //      for (hour = 0; hour < hourProbs.length; hour++)
-    //      {
-    //        if (hourProbs[hour] > randHour)
-    //        {
-    //          break;
-    //        }
-    //      }
-    //      if (hour == 24)
-    //      {
-    //        println("[AgentHandler] hour is 24");
-    //        
-    //      }
-    //      double randTransport = Math.random();
-    //      if (randTransport < 0.29325)
-    //      {
-    //        // Is a car
-    //        Car newCar = new Car(pathPlanner, start, end, true);
-    //        if (newCar.path.size() != 0)
-    //        {
-    //          timedCars.get(hour).add(newCar);
-    //          timedCars.get((hour+10)%24).add(new Car(pathPlanner, end, start, true)); // return trip
-    //          numcars++;
-    //        }
-    //      }
-    //      else if (randTransport < 0.42)
-    //      {
-    //        // Is a bike
-    //        Bike newBike = new Bike(pathPlanner, start, end);
-    //        if (newBike.path.size() != 0)
-    //        {
-    //          timedBikes.get(hour).add(newBike);
-    //          timedBikes.get((hour+10)%24).add(new Bike(pathPlanner, end, start)); // return trip
-    //          numbikes++;
-    //        }
-    //      }
-    //    }
+    // to make more jobs, change line 197 to end, and line 204 to 
+//    for (int k = 0; k < 500; k++)
+//    {
+//      // randomize start point within that property
+//      float randstarty = (float) (-71.08604 + (Math.random()*(-71.08431 - -71.08604)));
+//      float randstartx = (float) (42.36287 + (Math.random()*(42.36615 - 42.36287)));
+//      PVector start = new PVector(randstartx, randstarty);
+//      
+//      // choose a destination
+//      float randendy = (float) (42.361473 + (42.368775 - 42.361473) * Math.random());
+//      float randendx = (float) (-71.092645 + (-71.080661 - -71.092645) * Math.random());
+//      float[][] destinations = {{42.36156,-71.07528},{42.35471,-71.09148},{42.36355,-71.10040},{42.37323,-71.10040},{randendx,randendy}}; // longfellow, mass ave bridge, main st, hampshire, random
+//      int random = (int)(Math.random() * 5);
+//      PVector end = new PVector(destinations[random][0], destinations[random][1]);
+//      
+//      
+//      // chose hour of the day based on probability
+//      double randHour = Math.random();
+//      
+//      int hour = 0;
+//      for (hour = 0; hour < hourProbs.length; hour++)
+//      {
+//        if (hourProbs[hour] > randHour)
+//        {
+//          break;
+//        }
+//      }
+//      if (hour == 24)
+//      {
+//        println("[AgentHandler] hour is 24");
+//        
+//      }
+//      double randTransport = Math.random();
+//      if (randTransport < 0.391)
+//      {
+//        // Is a car
+//        Car newCar = new Car(pathPlanner, start, end, true);
+//        if (newCar.path.size() != 0)
+//        {
+//          timedCars.get(hour).add(newCar);
+//          timedCars.get((hour+10)%24).add(new Car(pathPlanner, end, start, true)); // return trip
+//          numcars++;
+//          home.add(start);
+//          work.add(end);
+//        }
+//      }
+//      else if (randTransport < 0.42)
+//      {
+//        // Is a bike
+//        Bike newBike = new Bike(pathPlanner, start, end);
+//        if (newBike.path.size() != 0)
+//        {
+//          timedBikes.get(hour).add(newBike);
+//          timedBikes.get((hour+10)%24).add(new Bike(pathPlanner, end, start)); // return trip
+//          numbikes++;
+//          home.add(start);
+//          work.add(end);
+//        }
+//      }
+//    }
 
     println();
     println("[AgentHandler] Num agents drawn: " + cardrawn);
