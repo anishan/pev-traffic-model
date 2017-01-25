@@ -22,12 +22,6 @@ float Bottom_lat = 42.361473;
 float Left_lon = -71.092645;//-71.1705; 
 float Right_lon = -71.080661;
 
-////// Bounds for Kendall
-//float Top_lat = 42.37417;
-//float Bottom_lat = 42.35619;
-//float Left_lon = -71.09986;//-71.1705; 
-//float Right_lon = -71.07784;
-
 
 // Bounding coordinates
 PVector top_left_corner = new PVector(Top_lat, Left_lon);
@@ -103,8 +97,6 @@ void setup()
 
   // Load population data
   Table agentsDataTable = loadTable("data/acs-od-data-bos-counts.csv", "header");
-//  Table agentsDataTable = loadTable("data/kendall-pop-nodes-clean.csv", "header");
-//  Table agentsDataTable = loadTable("data/test-nodes-clean.csv", "header");
 
   // Create agent handler (which creates agents
   agentHandler = new AgentHandler(agentsDataTable, pathPlanner, personPerCar, carsPerAgent, carsDrawn);
@@ -143,7 +135,6 @@ void draw()
       initialized = true;
       prevTime = millis();
       
-//      agentHandler.startCars();
     }
     
     agentHandler.controlCars(globalTime);
@@ -210,7 +201,6 @@ void draw()
         {
           if (c.totalTime != 0)
           {
-//            println("[QueueingModel] car time: " + c.totalTime);
             int timeInt = 10*int(c.totalTime/600); // hours
             if (time.contains(timeInt))
             {

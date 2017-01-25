@@ -26,10 +26,6 @@ public class BackgroundHandler
     agentHandler = agents;
     prevTime = 0;
     residuePGraphic = createGraphics(width, height);
-    //    for (int i = 0; i < ODPGraphics.length; i++)
-    //    {
-    //      ODPGraphics[i] = createGraphics(width, height);
-    //    }
   }
 
 
@@ -91,13 +87,10 @@ public class BackgroundHandler
   // Draw the population origins as white circles
   public void createODPoints(MercatorMap mercatorMap)
   {
-//    for (int i = 0; i < ODPGraphics.length; i++)
-//    {
-      ODPGraphic = createGraphics(width, height);
-      ODPGraphic.beginDraw();
-      agentHandler.drawPoints(mercatorMap, ODPGraphic, 0);
-      ODPGraphic.endDraw();
-//    }
+    ODPGraphic = createGraphics(width, height);
+    ODPGraphic.beginDraw();
+    agentHandler.drawPoints(mercatorMap, ODPGraphic, 0);
+    ODPGraphic.endDraw();
   }
 
   // Draw the roads onto a pgraphic, and save it
@@ -142,7 +135,6 @@ public class BackgroundHandler
     {
       residueRoad.add(r);
       residueOpacity.add(20.0);
-      //      residueOpacity.add(100.0);
       residueColor.add(240.0);
     }
   }
@@ -166,7 +158,6 @@ public class BackgroundHandler
   // Draws all the background pgraphics, in order
   public void drawAll(MercatorMap mercatorMap, int hour)
   {
-    //    println("[BackgroundHandler] hour: " + hour);
     background(#003345);
 
     // Draw state boundaries

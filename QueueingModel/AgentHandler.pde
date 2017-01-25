@@ -55,7 +55,7 @@ public class AgentHandler
     // Loop through all rows of the data table, and create appropriate car agents
     // To make agents based on traffic count data
     for (int i = 0; i < dataTable.getRowCount (); i++) 
-//    for (int i = 0; i < 1000; i++) 
+//    for (int i = 0; i < 1000; i++) // for testing with limited data set
     {
 
       // Print a progress bar
@@ -68,10 +68,6 @@ public class AgentHandler
       PVector start = new PVector(dataTable.getRow(i).getFloat("startx"), dataTable.getRow(i).getFloat("starty"));
       PVector end = new PVector(dataTable.getRow(i).getFloat("endx"), dataTable.getRow(i).getFloat("endy"));
       points.add(start);
-      //      int pop = dataTable.getRow(i).getInt("count");
-      //      int hour = dataTable.getRow(i).getInt("time_since_midnight");
-      //      String type = dataTable.getRow(i).getString("type");
-      //      String loc = dataTable.getRow(i).getString("start");
 
       // chose hour of the day based on probability
       double randHour = Math.random();
@@ -84,7 +80,6 @@ public class AgentHandler
           break;
         }
       }
-      //      println("[AgentHandler] hour: " + hour + " prob: " randHour
       if (hour == 24)
       {
         println("[AgentHandler] hour is 24");
@@ -124,70 +119,10 @@ public class AgentHandler
           work.add(end);
         }
       }
-
-
-      //
-      //      for (int j = 0; j < pop; j++) 
-      //      {
-      //        if (j%carsDrawn ==0)
-      //        {
-      //          draw = true;
-      //          cardrawn++;
-      //        } 
-      //        else
-      //        {
-      //          draw = false;
-      //        }
-      //        // Chose destination points 
-      //        // random points within displayed area
-      //        float randLat = (float) (42.361473 + (42.368775 - 42.361473) * Math.random());
-      //        float randLon = (float) (-71.092645 + (-71.080661 - -71.092645) * Math.random());
-      //        // main exits to kendall traffic, depending on where the cars started
-      //        float[][] destinations1 = {{42.361833,-71.080630},{42.360350,-71.083908},{42.359249,-71.087163},{42.368023,-71.080774},{randLat,randLon}}; // bridge, mem, ames, north, rand
-      //        float[][] destinations2 = {{42.368023,-71.080774},{42.362109,-71.090881},{42.365779,-71.092001},{42.362857,-71.091945},{randLat,randLon}};
-      //        float[][] destinations3 = {{42.361833,-71.080630},{42.360350,-71.083908},{42.359249,-71.087163},{42.361833,-71.080630},{randLat,randLon}};
-      //        float[][] destinations4 = {{42.365779,-71.092001},{42.362109,-71.090881},{42.365779,-71.092001},{42.362857,-71.091945},{randLat,randLon}};
-      //        float[][] destinations;
-      //        if (loc.equals("A") || loc.equals("B") || loc.equals("G")) // coming from the west
-      //        {
-      //          if (type.equals("car"))
-      //          {
-      //            destinations = destinations1;
-      //          }
-      //          else
-      //          {
-      //            destinations = destinations3;
-      //          }
-      //        }
-      //        else // coming from the east
-      //        {
-      //          if (type.equals("car"))
-      //          {
-      //            destinations = destinations2;
-      //          }
-      //          else
-      //          {
-      //            destinations = destinations4;
-      //          }
-      //        }
-      //        
-      //        int random = (int)(Math.random() * 5);
-      //        end = new PVector(destinations[random][0], destinations[random][1]);
-      //        if (type.equals("car"))
-      //        {
-      //          timedCars.get(hour).add(new Car(pathPlanner, start, end, draw));
-      //          numcars++;
-      //        }
-      //        else if (type.equals("bike"))
-      //        {
-      //          timedBikes.get(hour).add(new Bike(pathPlanner, start, end));
-      //          numbikes++;
-      //        }
-      //      }
     }
 
 
-    // Add more housing in Kendall Sq
+    // Uncomment to add more housing in Kendall Sq
     // to make more jobs, change line 197 to end, and line 204 to 
 //    for (int k = 0; k < 500; k++)
 //    {
@@ -263,6 +198,7 @@ public class AgentHandler
       println("[AgentHandler] cars size: " + timedCars.get(i).size());
     }
   }
+  
 
 
   /* 
@@ -393,70 +329,39 @@ public class AgentHandler
         }
         float angle = (float)(2*Math.PI*Math.random());
         pg.ellipse((float)(start.x + (r*cos(angle))), (float)(start.y + (r*sin(angle))), radius, radius);
-//        println("[AgentHander] startx: " + start.x + " starty: " + start.y + " endx: " + end.x + " endy: " + end.y);
       }
       catch (Exception e)
       {
       }
       
     }
-    for (int i = 0; i < work.size(); i++)
-    {
-      boolean onscreenStart;
-      boolean onscreenEnd;
-      PVector start = new PVector(0, 0);
-      PVector end = new PVector(0, 0);
-      float radius = 0;
-      try
+      for (int i = 0; i < work.size(); i++)
       {
-        end = mercatorMap.getScreenLocation(work.get(i));
-        radius = 10;
-        onscreenEnd = end.x > 0 && end.x < width && end.y > 0 && end.y < height;
-        // draw orange circle at end
-        //          pg.fill(#ffcc00, 10);
-        //          pg.ellipse(start.x, start.y, radius/2, radius/2);
-        //          pg.fill(#ffcc00, 7);
-        //          pg.ellipse(start.x, start.y, radius*3/4, radius*3/4);
-        pg.fill(#ff8800, 100);
-        // randomly in circle
-        float r = (float)(50*Math.random());
-        if (work.get(i).x == 42.3601076 && work.get(i).y == -71.09094946)
+        boolean onscreenStart;
+        boolean onscreenEnd;
+        PVector start = new PVector(0, 0);
+        PVector end = new PVector(0, 0);
+        float radius = 0;
+        try
         {
-          r = (float)(150*Math.random());
+          end = mercatorMap.getScreenLocation(work.get(i));
+          radius = 10;
+          onscreenEnd = end.x > 0 && end.x < width && end.y > 0 && end.y < height;
+          pg.fill(#ff8800, 100);
+          // randomly in circle
+          float r = (float)(50*Math.random());
+          if (work.get(i).x == 42.3601076 && work.get(i).y == -71.09094946)
+          {
+            r = (float)(150*Math.random());
+          }
+          float angle = (float)(2*Math.PI*Math.random());
+          pg.ellipse((float)(end.x + (r*cos(angle))), (float)(end.y + (r*sin(angle))), radius, radius);
         }
-        float angle = (float)(2*Math.PI*Math.random());
-        pg.ellipse((float)(end.x + (r*cos(angle))), (float)(end.y + (r*sin(angle))), radius, radius);
-//        println("[AgentHander] endx: " + work.get(i).x + " work.get(i): " + end.y);
+        catch (Exception e)
+        {
+        }
       }
-      catch (Exception e)
-      {
-      }
-
-
-      //          if (onscreenStart)
-      //          {
-      //            // draw white circle at start
-      //            pg.fill(#ffffff, 75);
-      //            pg.ellipse(start.x, start.y, radius/2, radius/2);
-      //            pg.fill(#ffffff, 50);
-      //            pg.ellipse(start.x, start.y, radius*3/4, radius*3/4);
-      //            pg.fill(#ffffff, 25);
-      //            pg.ellipse(start.x, start.y, radius, radius);
-      //          }
-      //          if (onscreenEnd)
-      //          {
-      //            // draw orange circle at end
-      //            pg.fill(#ffcc00, 75);
-      //            pg.ellipse(start.x, start.y, radius/2, radius/2);
-      //            pg.fill(#ffcc00, 50);
-      //            pg.ellipse(start.x, start.y, radius*3/4, radius*3/4);
-      //            pg.fill(#ffcc00, 25);
-      //            pg.ellipse(start.x, start.y, radius, radius);
-      //          }
-      //      }
     }
-    }
-//    println("[AgentHandler] width: " + width + " height: " + height);
   }
 }
 
